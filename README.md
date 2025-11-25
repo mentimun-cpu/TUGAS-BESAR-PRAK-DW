@@ -1,43 +1,34 @@
-# README - Projek Desain Web
-
-## 📋 Informasi Projek
+# 📋 Informasi Projek
 
 **Nama Projek:** [Nama Website Anda]  
 **Tema:** [Tema yang dipilih, contoh: E-commerce, Portfolio, Blog, dll]  
-**Kelas:** [Nama Kelas]  
-**Tanggal Mulai:** [Tanggal]  
-**Deadline:** [Tanggal]
+**Kelas:** [Prak Design Web se kelompok 4]  
+**Tanggal Mulai:** [25/11/2025]  
 
 ## 👥 Anggota Kelompok
 
-| Nama | NIM | Role |
-|------|-----|-------|
-| [Nama Lengkap 1] | [NIM] | [Frontend Developer] |
-| [Nama Lengkap 2] | [NIM] | [Backend Developer] |
-| [Nama Lengkap 3] | [NIM] | [UI/UX Designer] |
-| [Nama Lengkap 4] | [NIM] | [Project Manager] |
+| Nama | NIM |
+|------|-----|
+| Fais Bese Febrian | 4524210033 | 
+| Jevrene Samny Pratama | 4524210046 | 
+| Ketut Sumantre | 4524210048 | 
+| Farhan Ridwan Badawi | 4524210037 |
+| Bunga Putri Nuriman | 4524210021 | 
+| Elsa Setia Marcsa | 4524210030 |
 
 ## 🎯 Tugas dan Pembagian Kerja
 
 ### [Nama Anggota 1]
-- [ ] Membuat layout header dan navigation
-- [ ] Implementasi responsive design
-- [ ] Styling dengan CSS
+- [ ] 
 
 ### [Nama Anggota 2]
-- [ ] Setup database dan backend
-- [ ] Implementasi form handling
-- [ ] API development
+- [ ] 
 
 ### [Nama Anggota 3]
-- [ ] Desain wireframe dan mockup
-- [ ] Pemilihan color scheme dan typography
-- [ ] User experience testing
+- [ ] 
 
 ### [Nama Anggota 4]
-- [ ] Koordinasi tim dan timeline
-- [ ] Dokumentasi projek
-- [ ] Quality assurance
+- [ ]
 
 ## ✨ Fitur-Fitur
 

@@ -18,16 +18,22 @@
 
 ## 🎯 Tugas dan Pembagian Kerja
 
-### [Nama Anggota 1]
+### [Fais Bese Febrian]
 - [ ] 
 
-### [Nama Anggota 2]
+### [Jevrene Samny Pratama]
 - [ ] 
 
-### [Nama Anggota 3]
+### [Ketut Sumantre]
 - [ ] 
 
-### [Nama Anggota 4]
+### [Farhan Ridwan Badawi]
+- [ ]
+
+### [Bunga Putri Nuriman]
+- [ ]
+
+### [Elsa Setia Marcsa]
 - [ ]
 
 ## ✨ Fitur-Fitur

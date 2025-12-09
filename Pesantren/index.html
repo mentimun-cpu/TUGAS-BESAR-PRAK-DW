@@ -3,58 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesantren Tahfizh Al-Qur'an Al-Azhaar Umsu</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Sekolah Pancasila</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDf0H4FzB6u0Y4u/8K/G/LhV1Y6X2j2K5J/XQ5iE5C5D8N5iF5L5M5N5O5P5Q5R5S5T5U5V5W5X5Y5Z" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
     <style>
         :root {
-            
             --color-maroon: #990000;
-            --color-red: #B02324;    
+            --color-red: #B02324;
         }
-        
-        .bg-maroon {
-            background-color: var(--color-maroon) !important;
-        }
-
-        .text-maroon {
-            color: var(--color-maroon) !important;
-        }
-
-        .bg-red {
-            background-color: var(--color-red) !important;
-        }
+        .bg-maroon { background-color: var(--color-maroon) !important; }
+        .text-maroon { color: var(--color-maroon) !important; }
+        .bg-red { background-color: var(--color-red) !important; }
+        .border-maroon { border-color: var(--color-maroon) !important; }
     </style>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg sticky-top bg-maroon navbar-dark shadow">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">AL-AZHAAR UMSU</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+            <img src="logo_pancasila.png" alt="Logo Sekolah Pancasila" style="height:40px; margin-right:10px;">
+            SEKOLAH PANCASILA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto"> 
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
                 <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
                 <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
                 <li class="nav-item"><a class="nav-link" href="pendaftaran.html">Pendaftaran</a></li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-warning text-dark fw-bold ms-lg-3" href="kontak.html">Hubungi Kami</a>
-                </li>
+                <li class="nav-item"><a class="nav-link btn btn-warning text-dark fw-bold ms-lg-3" href="kontak.html">Hubungi Kami</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-    <header id="profil" class="container-fluid py-5 bg-light">
+<!-- HEADER PROFIL -->
+<header id="profil" class="container-fluid py-5 bg-light">
     <div class="container">
         <div class="p-3 bg-red text-white d-inline-block mb-4">
             <h1 class="fw-bold fs-3 mb-0">PROFIL SINGKAT</h1>
@@ -63,56 +55,41 @@
         <div class="row g-4">
             <div class="col-lg-7 order-lg-1 order-2">
                 <p class="fw-bold lead">
-                    Pesantren Tahfizh AI-Qur'an Ibnu Haji Abdullah Al-Azhaar Ummu Suwanah 3
-                    didirikan pada tanggal 23 Juli 2022 oleh Dr. Abi Ali Sodikin Abdullah, Lc, M.Pd
-                    dan diresmikan secara langsung oleh Curu Mulia Syaikh Dr. Ammar Azmi Ar-
-                    Rafati Al-Jailani Al-Palestin. Pesantren ini hadir dengan visi mencetak
-                    generasi Qur'ani yang berilmu, beradab, dan berdaya guna bagi umat.
-                    Sistem pendidikan yang diterapkan memadukan antara Pendidikan
-                    Pesantren, Tahfizh AI-Qur'an, dan Pendidikan Formal (MTs & MA).
-                    Selain itu, juga dibuka Program Kulliyatul Mu'allimin Al-Islamiyyah
-                    (KMI) yang mengadopsi kurikulum Pesantren Modern Gontor,
-                    sehingga santri tidak hanya fokus pada hafalan Al-Qur an.
-                    tetapi juga mendapatkan bekal ilmu keislaman dan wawasan
-                    modern yang seimbang.
+                    Sekolah Pancasila adalah lembaga pendidikan yang dibangun berlandaskan nilai-nilai Pancasila 
+                    dengan tujuan mencetak generasi berpikir kritis, berkarakter, dan mampu menjadi warga negara 
+                    yang aktif, kreatif, serta berintegritas.
                 </p>
                 <p class="lead">
-                    Visi: Mencetak generasi Qur'ani yang berilmu, beradab, dan berguna bagi umat.
+                    Visi: Mencetak generasi emas Indonesia yang berkarakter Pancasila.
                 </p>
-                
             </div>
 
             <div class="col-lg-5 order-lg-2 order-1 d-flex justify-content-center align-items-center">
                 <div style="background-color: var(--color-maroon); padding: 15px; border-radius: 10px;">
-                    <img src="foto_kyai.jpeg" 
-                         class="img-fluid shadow-lg rounded" 
-                         alt="Pimpinan Pesantren dan Santri">
+                    <img src="pancasila_logo.jpg" class="img-fluid shadow-lg rounded" alt="Logo Sekolah Pancasila">
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-    <section id="pendaftaran" class="container-fluid py-5">
+<!-- PENDAFTARAN -->
+<section id="pendaftaran" class="container-fluid py-5">
     <div class="container">
         <div class="row g-4">
-            
+
             <div class="col-lg-6">
                 <div class="bg-red text-white p-4 rounded shadow-sm h-100">
                     <h2 class="fw-bold mb-3">LAYANAN PENDAFTARAN</h2>
-                    
                     <h5 class="fw-bold mt-4">Sekretariat</h5>
-                    <address class="">
-                        Pesantren Tahfizh Al-Qur'an Ibnu Haji Abdullah Al-Azhaar Ummu Suwanah 3, Kp.Pasir Sengir, <br>
-                        RT/RW 015/005, Ds.Gumuruh, Kec.Cileles, Kab. Lebak, Prov.Banten, Kode Pos 42353
-                    </address>
+                    <address>Sekolah Pancasila Indonesia, Jl. Pendidikan Nasional No. 45, Jakarta.</address>
 
                     <h5 class="fw-bold mt-4">Jam Pelayanan</h5>
-                    <p class="">Hari Sabtu s.d. Kamis Pukul 09:00 - 16:00</p>
+                    <p>Senin - Jumat, 08.00 - 16.00</p>
 
                     <h5 class="fw-bold mt-4">Pendaftaran Online</h5>
                     <ol class="small">
-                        <li>Melalui laman <a href="https://al-azhaar-umsu.com" class="text-warning text-decoration-none fw-bold">https://al-azhaar-umsu.com</a></li>
+                        <li>Melalui laman <a class="text-warning fw-bold" href="#">https://sekolahpancasila.id</a></li>
                     </ol>
                 </div>
             </div>
@@ -120,93 +97,103 @@
             <div class="col-lg-6">
                 <div class="bg-red text-white p-4 rounded shadow-sm h-100">
                     <h2 class="fw-bold mb-3">SYARAT & BIAYA PENDAFTARAN</h2>
-                    
+
                     <h5 class="fw-bold mt-4">Biaya Masuk</h5>
-                    <ul class="list-unstyled small">
-                        <li>Rp. 5.480.000 (Total keseluruhan biaya)</li>
+                    <ul class="small">
+                        <li>Rp 4.500.000 (Total keseluruhan biaya)</li>
                     </ul>
 
                     <h5 class="fw-bold mt-4">Persyaratan Dokumen</h5>
                     <ul class="small">
-                        <li> Membeli formulir pendaftaran (Rp. 250.000/Rp. 500.000)</li>
-                        <li> FC. Akta Kelahiran, Kartu Keluarga, KTP Ortu/Wali (masing-masing 3 Lembar)</li>
-                        <li> Materai 10.000 (1 Lembar)</li>
-                        <li> Print Out NISN, SKL Asli, FC. Ijazah Legalisir (3 Lembar)</li>
+                        <li> Formulir pendaftaran</li>
+                        <li> Fotokopi Akta Kelahiran & Kartu Keluarga</li>
+                        <li> Pas foto 3x4 (3 lembar)</li>
+                        <li> Ijazah / rapor terakhir</li>
                     </ul>
                 </div>
             </div>
 
+            <!-- Gelombang Pendaftaran -->
             <div class="col-12 mt-4">
                 <h3 class="text-maroon fw-bold text-center mb-3">WAKTU PENDAFTARAN</h3>
-                <div class="row g-3">
-                    <div class="col-md-6">
+                <div class="row g-3 justify-content-center text-center">
+
+                    <div class="col-md-4">
                         <div class="card bg-maroon text-white border-0 shadow-sm">
-                            <div class="card-body text-center py-3">
-                                <h4 class="card-title fw-bold">Gelombang 1</h4>
-                                <p class="card-text fs-6 mb-1">September 2025 s.d. November 2025</p>
-                                <span class="badge bg-warning text-dark fw-bold fs-6">DISKON 20%</span>
+                            <div class="card-body">
+                                <h4 class="fw-bold">Gelombang 1</h4>
+                                <p>Oktober 2025 - Desember 2025</p>
+                                <span class="badge bg-warning text-dark fw-bold">DISKON 15%</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+
+                    <div class="col-md-4">
                         <div class="card bg-maroon text-white border-0 shadow-sm">
-                            <div class="card-body text-center py-3">
-                                <h4 class="card-title fw-bold">Gelombang 2</h4>
-                                <p class="card-text fs-6 mb-1">Januari 2026 s.d. April 2026</p>
-                                <span class="badge bg-warning text-dark fw-bold fs-6">DISKON 10%</span>
+                            <div class="card-body">
+                                <h4 class="fw-bold">Gelombang 2</h4>
+                                <p>Januari 2026 - Maret 2026</p>
+                                <span class="badge bg-warning text-dark fw-bold">DISKON 5%</span>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-            
+
+        </div>
+    </div>
+</section>
+    <div class="container">
+
+        <div class="p-3 bg-red text-white rounded-top mx-auto d-block w-50 text-center mb-4">
+            <h2 class="fw-bold fs-3 mb-0">PROGRAM PENDIDIKAN FORMAL</h2>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- SD -->
+            <div class="col-md-4">
+                <div class="p-3 border border-2 border-maroon rounded shadow-sm card-hover-effect h-100">
+                    <h4 class="text-maroon fw-bold mb-2">SD</h4>
+                    <p class="mb-0">
+                        <b>Sekolah Dasar</b><br>
+                        Kurikulum modern & pembinaan karakter Pancasila sejak dini.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SMP -->
+            <div class="col-md-4">
+                <div class="p-3 border border-2 border-maroon rounded shadow-sm card-hover-effect h-100">
+                    <h4 class="text-maroon fw-bold mb-2">SMP</h4>
+                    <p class="mb-0">
+                        <b>Sekolah Menengah Pertama</b><br>
+                        Penguatan nilai kebangsaan & pembiasaan profil Pelajar Pancasila.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SMA -->
+            <div class="col-md-4">
+                <div class="p-3 border border-2 border-maroon rounded shadow-sm card-hover-effect h-100">
+                    <h4 class="text-maroon fw-bold mb-2">SMA</h4>
+                    <p class="mb-0">
+                        <b>Sekolah Menengah Atas</b><br>
+                        Program akademik modern & pengembangan kepemimpinan Pancasila.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
-    <section class="container py-5">
-    <h2 class="text-center mb-5 text-maroon fw-bold">Program Pendidikan Formal</h2>
-
-    <div class="row g-4">
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm p-3 card-hover-effect">
-                <div class="card-body">
-                    <h4 class="card-title text-maroon fw-bold">MTS</h4>
-                    <p class="card-text">
-                        <b>Madrasah Tsanawiyah</b> Tahfizh Qur'an, Kurikulum Depag dan Kepesantrenan.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-         <div class="col-md-4">
-            <div class="card h-100 shadow-sm p-3 card-hover-effect">
-                <div class="card-body">
-                    <h4 class="card-title text-maroon fw-bold">MA</h4>
-                    <p class="card-text">
-                        <b>Madrasah'Aliyah</b> Tahfizh Qur'an Program IPA. Kurikulum Kepesantrenan, Program Bahasa Inggris Dan Bahasa Arab.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm p-3 card-hover-effect">
-                <div class="card-body">
-                    <h4 class="card-title text-maroon fw-bold">KMI</h4>
-                    <p class="card-text">
-                        <b>Kulliyatul Mu'allimin Islamiyyah</b> Program 4 tahun untuk Kelulusan SMP/MTs. Kurikulum Modern, Tahfidz Kitab Kuning.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section id="unggulan" class="py-5 bg-light">
+<!-- PROGRAM UNGGULAN -->
+<section id="unggulan" class="py-5 bg-light">
     <div class="container">
         
-        <div class="p-3 bg-red text-white d-inline-block mb-4 rounded-top mx-auto d-block w-50 text-center">
+        <div class="p-3 bg-red text-white rounded-top mx-auto d-block w-50 text-center mb-4">
             <h2 class="fw-bold fs-3 mb-0">PROGRAM UNGGULAN</h2>
         </div>
         
@@ -214,33 +201,30 @@
             
             <div class="col-md-6">
                 <div class="p-3 border border-2 border-maroon rounded shadow-sm d-flex align-items-center gap-3 card-hover-effect h-100">
-                    <img src="quran.jpg" width="50" height="50">
-                    <i class="fas fa-quran fa-2x text-maroon"></i>
+                    <i class="fas fa-lightbulb fa-2x text-maroon"></i>
                     <div>
-                        <h5 class="mb-1 text-maroon fw-bold">Tahfidz AL-Qur'an 30 Juz</h5> 
-                        <p class="mb-0 small">Program unggulan untuk membimbing santri hafal 30 juz.</p>
+                        <h5 class="mb-1 text-maroon fw-bold">Penguatan Karakter</h5> 
+                        <p class="mb-0 small">Gotong royong, nasionalisme, integritas & kepemimpinan.</p>
                     </div>
                 </div>
             </div>
             
             <div class="col-md-6">
                 <div class="p-3 border border-2 border-maroon rounded shadow-sm d-flex align-items-center gap-3 card-hover-effect h-100">
-                    <img src="kitab.jpg" width="50" height="50">
-                    <i class="fas fa-scroll fa-2x text-maroon"></i>
+                    <i class="fas fa-globe fa-2x text-maroon"></i>
                     <div>
-                        <h5 class="mb-1 text-maroon fw-bold">Tahfizh Matan & Hadits</h5>
-                        <p class="mb-0 small">Tuhfatul Athfal, Aqidatul Awwam, Arbain, Bulughul Maram, dan Kitab Kuning.</p>
+                        <h5 class="mb-1 text-maroon fw-bold">Kebinekaan Global</h5>
+                        <p class="mb-0 small">Interaksi budaya & pembelajaran lintas negara.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="p-3 border border-2 border-maroon rounded shadow-sm d-flex align-items-center gap-3 card-hover-effect h-100">
-                     <img src="pesawat.jpg" width="50" height="50">
-                    <i class="fas fa-plane-departure fa-2x text-maroon"></i>
+                    <i class="fas fa-graduation-cap fa-2x text-maroon"></i>
                     <div>
-                        <h5 class="mb-1 text-maroon fw-bold">Beasiswa Luar Negri</h5>
-                        <p class="mb-0 small">Beasiswa ke Luar Negri Bagi Santri yang Berprestasi.</p>
+                        <h5 class="mb-1 text-maroon fw-bold">Beasiswa Berprestasi</h5>
+                        <p class="mb-0 small">Untuk siswa unggul akademik & non-akademik.</p>
                     </div>
                 </div>
             </div>
@@ -248,99 +232,115 @@
         </div> 
     </div>
 </section>
-
-    <section id="ekskul" class="container-fluid py-5">
+<!-- EKSTRAKURIKULER -->
+<section id="ekskul" class="container-fluid py-5 text-center">
     <div class="container">
-        <div class="p-3 bg-red text-white d-inline-block mb-4 rounded-top">
+
+        <div class="p-3 bg-red text-white d-inline-block rounded-top mb-4">
             <h2 class="fw-bold fs-3 mb-0">EKSTRAKURIKULER</h2>
         </div>
-        
-        <div class="row g-4 text-center">
-            
+
+        <div class="row g-4 justify-content-center">
+
             <div class="col-md-3 col-6">
                 <div class="card shadow h-100 border-maroon">
                     <div class="card-body">
-                        <h1 class="text-maroon"><i class="fas fa-quran"></i></h1>
-                        <h5 class="card-title fw-bold">Hadroh & Rebana</h5>
+                        <h1 class="text-maroon"><i class="fas fa-music"></i></h1>
+                        <h5 class="fw-bold">Seni Musik</h5>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 col-6">
                 <div class="card shadow h-100 border-maroon">
                     <div class="card-body">
-                        <h1 class="text-maroon"><i class="fas fa-users-line"></i></h1>
-                        <h5 class="card-title fw-bold">Pramuka & Paskibra</h5>
+                        <h1 class="text-maroon"><i class="fas fa-users"></i></h1>
+                        <h5 class="fw-bold">Pramuka & OSIS</h5>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 col-6">
                 <div class="card shadow h-100 border-maroon">
                     <div class="card-body">
-                        <h1 class="text-maroon"><i class="fas fa-bow-arrow"></i></h1>
-                        <h5 class="card-title fw-bold">Panahan & Silat</h5>
+                        <h1 class="text-maroon"><i class="fas fa-football"></i></h1>
+                        <h5 class="fw-bold">Olahraga</h5>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 col-6">
                 <div class="card shadow h-100 border-maroon">
                     <div class="card-body">
                         <h1 class="text-maroon"><i class="fas fa-camera"></i></h1>
-                        <h5 class="card-title fw-bold">Multimedia & Futsal</h5>
+                        <h5 class="fw-bold">Fotografi & Multimedia</h5>
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        
-        <p class="text-center mt-4 small text-muted">Dan kegiatan Ekstrakurikuler lainnya seperti Kelas Bahasa dan Olahraga.</p>
+
+        <p class="text-center mt-4 small text-muted">
+            Dan kegiatan lainnya seperti debat, sains club, dan coding club.
+        </p>
     </div>
 </section>
 
-    <footer id="kontak" class="bg-maroon text-white pt-5 pb-3">
+<!-- FOOTER -->
+<footer id="kontak" class="bg-maroon text-white pt-5 pb-3">
     <div class="container">
         <div class="row">
-            
+
+            <!-- Alamat -->
             <div class="col-lg-4 mb-4">
-                <h5 class="fw-bold">Alamat Pesantren</h5>
+                <h5 class="fw-bold">Alamat Sekolah</h5>
                 <address class="small">
-                    Pesantren Tahfizh Al-Qur'an Ibnu Haji Abdullah Al-Azhaar Ummu Suwanah 3 <br>
-                    Kp. Pasir Sengir, Ds. Gumuruh, Kec. Cileles, <br>
-                    Kab. Lebak, Prov. Banten, Kode Pos 42353
+                    Sekolah Pancasila Indonesia <br>
+                    Jl. Pendidikan Nasional No. 45, Jakarta.
                 </address>
+
                 <div class="ratio ratio-4x3 mt-3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7400187945873!2d106.09228417475241!3d-6.427437693563626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e423f80dee6a793%3A0x9e1deca125e3727!2sPTQ%20AL%20AZHAAR%20UMMU%20SUWANAH%203!5e0!3m2!1sen!2sid!4v1764731311960!5m2!1sen!2sid" 
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.449344316264!2d106.827153!3d-6.175392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e8d8c65%3A0xa4d3e53d%3A0x705f1!2sMonas%20Jakarta!5e0!3m2!1sid!2sid!4v0000000000"
+                        style="border:0;" loading="lazy"></iframe>
+                </div>
             </div>
-            
+
+            <!-- Kontak -->
             <div class="col-lg-4 mb-4">
                 <h5 class="fw-bold">Hubungi Kami</h5>
                 <ul class="list-unstyled">
-                    <li><i class="fas fa-phone-alt me-2 text-warning"></i> Call Center 1: Ust. Makmur Indra</li>
-                    <li><a href="https://wa.me/+6281291831573" class="text-white text-decoration-none small">0812-9183-1573</a></li>
-                    <li class="mt-2"><i class="fas fa-phone-alt me-2 text-warning"></i> Call Center 2: Ust. Ilham Al Hafiz</li>
-                    <li><a href="https://wa.me/+6285890006669" class="text-white text-decoration-none small">0858-9000-6669</a></li>
+                    <li><i class="fas fa-phone-alt me-2 text-warning"></i> Call Center</li>
+                    <li><a class="text-white text-decoration-none small" href="https://wa.me/6281200001234">
+                        0812-0000-1234
+                    </a></li>
+
+                    <li class="mt-3"><i class="fas fa-envelope me-2 text-warning"></i>Email</li>
+                    <li><a class="text-white text-decoration-none small" href="mailto:info@sekolahpancasila.id">
+                        info@sekolahpancasila.id
+                    </a></li>
                 </ul>
             </div>
 
+            <!-- Motto -->
             <div class="col-lg-4 mb-4">
-                <h5 class="fw-bold">Motto Pesantren</h5>
-                <p class="small fst-italic">"Education for All"</p>
-                <p class="small">Mencetak Saintis Hazi yang Hafal Al-Qur'an dan Berakhlak Qur'ani.</p>
-                
+                <h5 class="fw-bold">Motto Sekolah</h5>
+                <p class="small fst-italic">"Berkarakter, Berprestasi, Berkebangsaan"</p>
+
                 <h5 class="fw-bold mt-4">Pendaftaran Online</h5>
-                <a href="https://al-azhaar-umsu.com" target="_blank" class="btn btn-warning fw-bold">DAFTAR SEKARANG</a>
+                <a href="#" class="btn btn-warning fw-bold">DAFTAR SEKARANG</a>
             </div>
+
         </div>
-        
+
         <hr class="text-white-50">
-        
+
         <div class="text-center small pt-2">
-            &copy; 2025 Pesantren Tahfizh Al-Qur'an Al-Azhaar Umsu. All Rights Reserved.
+            &copy; 2025 Sekolah Pancasila Indonesia. All Rights Reserved.
         </div>
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

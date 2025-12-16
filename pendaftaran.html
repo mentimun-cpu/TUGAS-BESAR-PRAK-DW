@@ -159,6 +159,63 @@
             </div>
         </section>
 
+        <!-- Formulir Pendaftaran -->
+        <section class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="p-4 rounded shadow-sm" style="background:#0059B3;">
+                        <h2 class="fw-bold mb-4 text-white">Formulir Pendaftaran Siswa Baru</h2>
+                        <form class="needs-validation" novalidate action="pendaftaran-berhasil.html" method="get">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nama" class="form-label text-white">Nama Lengkap <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="nama" name="nama" required>
+                                    <div class="invalid-feedback">Nama wajib diisi.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label text-white">Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">Masukkan email yang valid.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="no_wa" class="form-label text-white">No. WhatsApp <span class="text-danger">*</span></label>
+                                    <input type="tel" class="form-control" id="no_wa" name="no_wa" pattern="^08[0-9]{8,12}$" required placeholder="08xxxxxxxxxx">
+                                    <div class="invalid-feedback">Masukkan nomor WhatsApp yang valid (format: 08xxxxxxxxxx).</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="alamat" class="form-label text-white">Alamat Lengkap <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="alamat" name="alamat" required>
+                                    <div class="invalid-feedback">Alamat wajib diisi.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="asal_sekolah" class="form-label text-white">Asal Sekolah <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="asal_sekolah" name="asal_sekolah" required>
+                                    <div class="invalid-feedback">Asal sekolah wajib diisi.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="program" class="form-label text-white">Pilihan Program <span class="text-danger">*</span></label>
+                                    <select class="form-select" id="program" name="program" required>
+                                        <option value="" disabled selected>Pilih Program</option>
+                                        <option value="IPA">IPA</option>
+                                        <option value="IPS">IPS</option>
+                                        <option value="Bahasa">Bahasa</option>
+                                    </select>
+                                    <div class="invalid-feedback">Pilih salah satu program.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="catatan" class="form-label text-white">Catatan Tambahan</label>
+                                    <textarea class="form-control" id="catatan" name="catatan" rows="2" placeholder="(Opsional)"></textarea>
+                                </div>
+                            </div>
+                            <div class="mt-4 text-end">
+                                <button type="submit" class="btn btn-warning-custom px-4 fw-bold">Daftar Sekarang</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         
         <!-- Kontak Darurat -->
         <section class="bg-light py-5">

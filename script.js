@@ -84,6 +84,14 @@ function initFormValidation() {
     
     forms.forEach(form => {
         form.addEventListener('submit', function(event) {
+            // Validasi manual untuk nomor WhatsApp (pattern)
+            const waInput = form.querySelector('input[name="no_wa"]');
+            if (waInput && waInput.value && !/^08[0-9]{8,12}$/.test(waInput.value)) {
+                waInput.setCustomValidity('Format nomor WhatsApp tidak valid');
+            } else if (waInput) {
+                waInput.setCustomValidity('');
+            }
+
             if (!form.checkValidity()) {
                 event.preventDefault();
                 event.stopPropagation();

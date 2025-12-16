@@ -160,3 +160,34 @@ section:first-of-type {
     border-color: var(--color-primary);
     box-shadow: 0 0 0 0.25rem rgba(92, 136, 224, 0.25);
 }
+
+/* Formulir Pendaftaran Styling */
+form.needs-validation {
+    /* background: #fff; */ /* dihilangkan agar mengikuti bg parent */
+    border-radius: 10px;
+}
+
+form .form-label {
+    font-weight: 500;
+    color: #fff !important;
+}
+
+form .form-control,
+form .form-select {
+    border-radius: 6px;
+    min-height: 44px;
+}
+
+form .form-control:focus,
+form .form-select:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0.15rem rgba(92, 136, 224, 0.15);
+}
+
+form .invalid-feedback {
+    font-size: 0.95em;
+}
+
+form .btn-primary-custom {
+    min-width: 160px;
+}

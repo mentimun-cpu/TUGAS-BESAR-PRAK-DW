@@ -132,6 +132,22 @@ function initBackToTop() {
         });
     });
 }
+// Ripple effect universal untuk card
+function createRipple(event, element) {
+    const ripple = document.createElement('span');
+    ripple.classList.add('ripple');
+
+    const rect = element.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height);
+
+    ripple.style.width = ripple.style.height = `${size}px`;
+    ripple.style.left = `${event.clientX - rect.left - size / 2}px`;
+    ripple.style.top = `${event.clientY - rect.top - size / 2}px`;
+
+    element.appendChild(ripple);
+
+    setTimeout(() => ripple.remove(), 600);
+}
 
 // Fungsi inisialisasi semua
 function initAll() {
@@ -141,7 +157,129 @@ function initAll() {
     optimizeCarouselImages();
     initFormValidation();
     initBackToTop();
+    function initAll() {
+    setActiveNavItem();
+    initSmoothScrolling();
+    initScrollAnimations();
+    optimizeCarouselImages();
+    initFormValidation();
+    initBackToTop();
+    initEkstrakurikulerModal();
+    initProgramUnggulanClick();
+}
 }
 
 // Jalankan ketika DOM siap
 document.addEventListener('DOMContentLoaded', initAll);
+document.querySelectorAll('.extra-card').forEach(card => {
+    card.addEventListener('click', () => {
+        const title = card.dataset.title;
+        const desc = card.dataset.desc;
+        const list = card.dataset.list.split(',');
+
+        document.getElementById('extraTitle').textContent = title;
+        document.getElementById('extraDesc').textContent = desc;
+
+        const ul = document.getElementById('extraList');
+        ul.innerHTML = '';
+        list.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            ul.appendChild(li);
+        });
+
+        const modal = new bootstrap.Modal(document.getElementById('extraModal'));
+        modal.show();
+    });
+});
+// Fungsi Program Unggulan → buka modal detail 
+function initProgramUnggulanClick() {
+    const cards = document.querySelectorAll('.program-card');
+
+    if (!cards.length) return;
+
+    cards.forEach(card => {
+        card.style.cursor = 'pointer';
+
+        card.addEventListener('click', (e) => {
+            createRipple(e, card);
+
+            const title = card.querySelector('h4')?.textContent || '';
+            const desc = card.querySelector('p')?.textContent || '';
+            const listItems = card.querySelectorAll('ul li');
+
+            document.getElementById('extraTitle').textContent = title;
+            document.getElementById('extraDesc').textContent = desc;
+
+            const ul = document.getElementById('extraList');
+            ul.innerHTML = '';
+
+            listItems.forEach(li => {
+                const newLi = document.createElement('li');
+                newLi.textContent = li.textContent;
+                ul.appendChild(newLi);
+            });
+
+            setTimeout(() => {
+                new bootstrap.Modal(
+                    document.getElementById('extraModal')
+                ).show();
+            }, 150);
+        });
+    });
+}
+// Ripple effect untuk ekstrakulikuler
+document.querySelectorAll('.ekstra-item').forEach(item => {
+    item.addEventListener('click', function (e) {
+        const ripple = document.createElement('span');
+        ripple.className = 'ripple';
+
+        const rect = item.getBoundingClientRect();
+        const size = Math.max(rect.width, rect.height);
+
+        ripple.style.width = ripple.style.height = size + 'px';
+        ripple.style.left = e.clientX - rect.left - size / 2 + 'px';
+        ripple.style.top = e.clientY - rect.top - size / 2 + 'px';
+
+        item.appendChild(ripple);
+
+        setTimeout(() => ripple.remove(), 600);
+    });
+});
+const ekstraItems = document.querySelectorAll('.row.text-center > div');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+                entry.target.classList.add('show');
+            }, index * 150);
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+ekstraItems.forEach(item => observer.observe(item));
+
+// ANIMASI SCROLL EKSTRAKURIKULER
+document.addEventListener('DOMContentLoaded', () => {
+    const ekstraItems = document.querySelectorAll(
+        'section.container.py-5 .row.g-4 > div'
+    );
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('show');
+                }, index * 150); // stagger
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.25
+    });
+
+    ekstraItems.forEach(item => observer.observe(item));
+});

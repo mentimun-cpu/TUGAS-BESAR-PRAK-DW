@@ -208,3 +208,335 @@ form .btn-primary-custom {
 .bg-visimisi {
     background-color: #94B4C1;
 }
+/* RESPONSIVE DESIGN PROGRAM */
+@media (max-width: 768px) {
+    .display- {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero-program i,
+    section .fa-6x {
+        font-size: 4rem !important;
+        margin-top: 20px;
+    }
+
+    section.bg-primary-custom .row {
+        text-align: center;
+    }
+}
+
+/* CARD PROGRAM */
+@media (max-width: 576px) {
+    .card-body {
+        padding: 1.25rem;
+    }
+
+    .card-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .card ul {
+        padding-left: 1rem;
+    }
+}
+
+/* PROGRAM PEMINATAN */
+@media (max-width: 768px) {
+    #peminatan .col-lg-4 {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* PROGRAM UNGGULAN */
+@media (max-width: 768px) {
+    .card .d-flex {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .card .rounded-circle {
+        margin-bottom: 10px;
+    }
+}
+
+/* EKSTRAKURIKULER */
+@media (max-width: 576px) {
+    section.container .rounded-circle {
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    section.container i {
+        font-size: 1.5rem !important;
+    }
+
+    section.container h5 {
+        font-size: 1rem;
+    }
+}
+
+/* FOOTER */
+@media (max-width: 768px) {
+    footer .col-lg-4 {
+        text-align: center;
+    }
+
+    footer ul {
+        padding-left: 0;
+        list-style: none;
+    }
+}
+.program-card {
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Hover (desktop mouse) */
+.program-card:hover {
+    transform: translateY(-4px);
+}
+
+.program-card:active {
+    transform: scale(0.96);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+   /* RIPPLE EFFECT */
+ 
+
+.program-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Ripple circle */
+.program-card::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Active ripple */
+.program-card:active::after {
+    animation: ripple 0.6s ease-out;
+}
+
+@keyframes ripple {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(15);
+        opacity: 0;
+    }
+}
+.program-card {
+    transition: transform 0.15s ease;
+}
+
+.program-card:active {
+    transform: scale(0.97);
+}
+/* Ripple Effect Program Unggulan*/
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+
+/* Biar card siap ripple */
+.program-card,
+.extra-card {
+    position: relative;
+    overflow: hidden;
+}
+/* Container item ekstrakurikuler */
+.ekstra-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform .25s ease, box-shadow .25s ease;
+    padding: 20px 10px;
+    border-radius: 14px;
+}
+
+/* Icon lingkaran */
+.ekstra-item .icon-circle {
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+/* Judul */
+.ekstra-item h5 {
+    transition: transform .25s ease;
+}
+
+/* Hover efek */
+.ekstra-item:hover {
+    transform: translateY(-6px);
+}
+
+.ekstra-item:hover .icon-circle {
+    transform: scale(1.08);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.ekstra-item:hover h5 {
+    transform: translateY(-2px);
+}
+
+/*ekstrakulikuler */
+.ekstra-item:active {
+    transform: scale(0.97);
+}
+.ekstra-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+.ekstra-item {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+        opacity .6s ease,
+        transform .6s ease;
+}
+
+/* Saat muncul */
+.ekstra-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.ekstra-item.show .icon-circle {
+    animation: pop 0.5s ease;
+}
+
+@keyframes pop {
+    0% { transform: scale(0.8); }
+    100% { transform: scale(1); }
+}
+/* item ekstrakurikuler */
+.row.text-center > div {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 
+        opacity .6s ease,
+        transform .6s ease;
+}
+
+/* muncul saat scroll */
+.row.text-center > div.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* ANIMASI SCROLL EKSTRAKURIKULER */
+section.container.py-5 .row.g-4 > div {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+/* Saat muncul */
+section.container.py-5 .row.g-4 > div.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover biar hidup */
+section.container.py-5 .row.g-4 > div:hover {
+    transform: translateY(-6px);
+}
+
+/* Icon efek */
+section.container.py-5 .row.g-4 > div .rounded-circle {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+section.container.py-5 .row.g-4 > div:hover .rounded-circle {
+    transform: scale(1.1);
+    box-shadow: 0 12px 25px rgba(0,0,0,.2);
+}
+/* Program Peminatan */
+.program-card {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+.program-card .card-header i {
+    transition: transform .3s ease;
+}
+
+.program-card:hover .card-header i {
+    transform: scale(1.15);
+}
+
+.program-card p {
+    text-align: justify;
+    line-height: 1.7;
+}
+/* Ripple Porgram */
+div[onclick] {
+    position: relative;
+    overflow: hidden;
+}
+
+div[onclick]::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+div[onclick]:active::after {
+    transform: scale(15);
+    opacity: 1;
+    transition: transform 0.5s, opacity 1s;
+}

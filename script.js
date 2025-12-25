@@ -283,3 +283,95 @@ document.addEventListener('DOMContentLoaded', () => {
 
     ekstraItems.forEach(item => observer.observe(item));
 });
+
+// WhatsApp Form Functionality - Debug Version
+function initWhatsAppForm() {
+    console.log('=== DEBUG WHATSAPP FORM ===');
+    
+    // 1. Cek apakah script berjalan
+    console.log('1. Script WhatsApp loaded');
+    
+    // 2. Cari form
+    const form = document.getElementById('whatsappForm');
+    console.log('2. Form ditemukan?', !!form);
+    
+    if (!form) {
+        console.error('❌ ERROR: Form dengan ID "whatsappForm" tidak ditemukan');
+        console.log('Mencari form lain...');
+        const allForms = document.querySelectorAll('form');
+        console.log('Jumlah form di halaman:', allForms.length);
+        return;
+    }
+    
+    // 3. Cek event listener
+    form.addEventListener('submit', function(event) {
+        console.log('3. Form submit triggered');
+        event.preventDefault();
+        
+        // 4. Cek input values
+        const nama = document.getElementById('namaKontak')?.value || '';
+        const email = document.getElementById('emailKontak')?.value || '';
+        const subjek = document.getElementById('subjek')?.value || '';
+        const pesan = document.getElementById('pesan')?.value || '';
+        
+        console.log('4. Data form:', { nama, email, subjek, pesan });
+        
+        // 5. Validasi
+        if (!nama || !email || !subjek || !pesan) {
+            console.error('❌ Validasi gagal: Field kosong');
+            alert('Harap isi semua field yang wajib!');
+            return;
+        }
+        
+        console.log('✅ Validasi berhasil');
+        
+        // 6. Format pesan
+        const whatsappMessage = `
+Halo SMA Pancasila,
+
+Nama: ${nama}
+Email: ${email}
+Subjek: ${subjek}
+
+Pesan:
+${pesan}
+
+Terima kasih.`;
+        
+        console.log('5. Pesan WhatsApp:', whatsappMessage);
+        
+        // 7. Nomor WhatsApp (GANTI INI!)
+        const phoneNumber = "6287840307495"; // Contoh: 081234567890 -> 6281234567890
+        console.log('6. Nomor tujuan:', phoneNumber);
+        
+        // 8. Buat URL WhatsApp
+        const encodedMessage = encodeURIComponent(whatsappMessage);
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        console.log('7. URL WhatsApp:', whatsappURL);
+        
+        // 9. Konfirmasi
+        const userConfirmed = confirm('Anda akan diarahkan ke WhatsApp. Lanjutkan?');
+        console.log('8. User konfirmasi?', userConfirmed);
+        
+        if (userConfirmed) {
+            console.log('✅ Membuka WhatsApp...');
+            window.open(whatsappURL, '_blank');
+            
+            // Reset form
+            form.reset();
+            console.log('✅ Form direset');
+            
+            alert('Pesan berhasil dikirim! Anda akan diarahkan ke WhatsApp.');
+        } else {
+            console.log('❌ User membatalkan');
+        }
+    });
+    
+    console.log('✅ Event listener berhasil ditambahkan');
+}
+
+// Jalankan saat halaman load
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('=== DOM LOADED ===');
+    initWhatsAppForm();
+});

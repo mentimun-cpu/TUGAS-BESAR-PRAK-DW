@@ -130,27 +130,61 @@ section:first-of-type {
 }
 
 /* =======================
-   PROGRAM CARD
+   PROGRAM CARD 
 ======================= */
-.program-card {
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    transition: transform .3s ease, box-shadow .3s ease;
+
+
+.program-card .card-header,
+.program-card-header {
+    background: var(--color-secondary) !important;
+    color: #ffffff !important;
+    border-bottom: none;
 }
 
-.program-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+
+.program-card .card-header h4,
+.program-card .card-header h5 {
+    color: #ffffff !important;
+    font-weight: 700;
 }
 
-.program-card:active {
-    transform: scale(.97);
+
+.program-card .card-header i,
+.program-card .card-header svg {
+    color: #ffffff !important;
 }
 
-.program-card p {
-    text-align: justify;
-    line-height: 1.7;
+#program h2,
+#program .section-title,
+.program-title {
+    color: var(--color-secondary) !important;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+.program-hero,
+#program-hero,
+.section-program-hero {
+    background-color: var(--color-secondary) !important;
+}
+
+.program-hero h1,
+.program-hero h2,
+.program-hero p {
+    color: #ffffff !important;
+}
+
+.program-hero i,
+.program-hero svg {
+    color: var(--color-accent) !important;
+}
+body > nav.bg-primary-custom {
+    background-color: var(--color-secondary) !important;
+}
+main > section.bg-primary-custom {
+    background-color: var(--color-secondary) !important;
+}
+footer.bg-primary-custom {
+    background-color: var(--color-secondary) !important;
 }
 
 /* =======================

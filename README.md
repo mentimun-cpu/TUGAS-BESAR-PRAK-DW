@@ -1,7 +1,7 @@
 # 📋 Informasi Projek
 
-**Nama Projek:** [Nama Website Anda]  
-**Tema:** [Tema yang dipilih, contoh: E-commerce, Portfolio, Blog, dll]  
+**Nama Projek:** [Sekolah Pancasila]  
+**Tema:** [Website Pendaftaran Sekolah]  
 **Kelas:** [Prak Design Web se kelompok 4]  
 **Tanggal Mulai:** [25/11/2025]  
 
@@ -19,22 +19,22 @@
 ## 🎯 Tugas dan Pembagian Kerja
 
 ### [Fais Bese Febrian]
-- [ ] 
+- [x] 
 
 ### [Jevrene Samny Pratama]
-- [ ] 
+- [x] 
 
 ### [Ketut Sumantre]
-- [ ] 
+- [x] 
 
 ### [Farhan Ridwan Badawi]
-- [ ]
+- [x]
 
 ### [Bunga Putri Nuriman]
-- [ ]
+- [x]
 
 ### [Elsa Setia Marcsa]
-- [ ]
+- [x]
 
 ## ✨ Fitur-Fitur
 
@@ -105,11 +105,11 @@ project-folder/
 ### Progress
 - [x] Planning & Research
 - [ ] Wireframing
-- [ ] HTML Structure
-- [ ] CSS Styling
-- [ ] JavaScript Functionality
-- [ ] Testing
-- [ ] Deployment
+- [x] HTML Structure
+- [x] CSS Styling
+- [x] JavaScript Functionality
+- [x] Testing
+- [x] Deployment
 
 ### Challenges
 - [Challenge yang dihadapi 1]

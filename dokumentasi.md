@@ -12,12 +12,12 @@
 ### **Daftar Anggota Kelompok**
 | No | Nama Lengkap | NIM | Peran | Kontribusi |
 |----|-------------|-----|-------|------------|
-| 1 | Farhan Ridwan Badawi | [NIM] | Project Manager | Koordinasi tim, dokumentasi, deployment |
-| 2 | Ketut Sumantre | [NIM] | UI/UX Designer | Wireframe, palet warna, tipografi |
-| 3 | Fais Base Febrian | [NIM] | Frontend Developer 1 | Struktur folder, framework implementation |
-| 4 | Jevrene Samny Pratama | [NIM] | Frontend Developer 2 | A11y implementation, HTML semantik |
-| 5 | Bunga Putri Nuriman | [NIM] | Frontend Developer 3 | Responsivitas, testing cross-device |
-| 6 | Elsa Setia Marcsa | [NIM] | Tester & Dokumen | Testing, screenshot, review dokumentasi |
+| 1 | Farhan Ridwan Badawi | [4524210037] | Project Manager | Koordinasi tim, dokumentasi, deployment |
+| 2 | Ketut Sumantre | [4524210048] | UI/UX Designer | Wireframe, palet warna, tipografi |
+| 3 | Fais Base Febrian | [4524210033] | Frontend Developer 1 | Struktur folder, framework implementation |
+| 4 | Jevrene Samny Pratama | [4524210046] | Frontend Developer 2 | A11y implementation, HTML semantik |
+| 5 | Bunga Putri Nuriman | [4524210021] | Frontend Developer 3 | Responsivitas, testing cross-device |
+| 6 | Elsa Setia Marcsa | [4524210030] | Tester & Dokumen | Testing, screenshot, review dokumentasi |
 
 ---
 

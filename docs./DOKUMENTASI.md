@@ -103,26 +103,49 @@
 ### **Halaman Utama (Homepage)**
 
 #### **Desktop View (≥1024px)**
+<img width="1920" height="2739" alt="homepage" src="https://github.com/user-attachments/assets/f8c9769d-d165-4d93-b480-5240f2b59c53" />
+
 
 #### **Tablet View (768px - 1023px)**
 
 #### **Mobile View (<768px)**
 
-### **Halaman Layanan (Services)**
+### **Halaman Profil Sekolah**
 
+#### **Desktop View**
+<img width="1920" height="3379" alt="profil" src="https://github.com/user-attachments/assets/5bb40585-a1dc-4239-b5c0-52d494e428d7" />
+
+#### **Tablet View**
+
+#### **Mobile View**
+
+### **Halaman Program Sekolah**
+<img width="1920" height="3368" alt="Program" src="https://github.com/user-attachments/assets/bcd1aa9a-9226-4a3f-a4f5-6b260eceb613" />
 #### **Desktop View**
 
 #### **Tablet View**
 
 #### **Mobile View**
 
-### **Halaman Kontak (Contact)**
+### **Halaman Pendaftaran**
 
 #### **Desktop View**
+<img width="1920" height="2905" alt="Pendaftaran" src="https://github.com/user-attachments/assets/b8b1d233-4f0b-4172-b2bf-f275fac6f56f" />
 
 #### **Tablet View**
 
 #### **Mobile View**
+
+### **Halaman Hubungi Kami**
+
+#### **Desktop View**
+<img width="1920" height="3792" alt="Hubungi Kami" src="https://github.com/user-attachments/assets/0990c635-cb21-4f75-9ff4-67397d54cfbb" />
+
+#### **Tablet View**
+
+#### **Mobile View**
+
+
 
 ---
 

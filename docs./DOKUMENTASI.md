@@ -94,176 +94,83 @@
 
 ### **Hirarki/Sitemap**
 
-SITEMAP WEB SMA 
+## 4. Struktur Halaman (Sitemap Website)
+
+```text
+SITEMAP WEBSITE SMA PANCASILA
 │
-├── index.html                # Beranda
-├── profil.html               # Profil Sekolah
-├── program.html              # Program Sekolah
-├── pendaftaran.html          # Pendaftaran Siswa Baru
-├── kontak.html               # Hubungi Kami
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
+├── HOME (Beranda)
+│   ├── Hero Section
+│   │   ├── Background Image Sekolah
+│   │   ├── Judul Utama
+│   │   └── Tagline Sekolah
 │   │
-│   ├── js/
-│   │   └── script.js
+│   ├── Profil Singkat Sekolah
+│   │   ├── Visi
+│   │   ├── Misi
+│   │   └── Nilai Sekolah
 │   │
-│   ├── images/
-│   │   ├── hero/
-│   │   ├── fasilitas/
-│   │   ├── program/
-│   │   └── icons/
+│   ├── Program Peminatan (Preview)
+│   │   ├── IPA
+│   │   ├── IPS
+│   │   └── Bahasa
 │   │
-│   └── fonts/
+│   ├── Program Unggulan (Preview)
+│   │   ├── Kelas Olimpiade
+│   │   ├── Bahasa Internasional
+│   │   ├── Digital Literacy
+│   │   └── Leadership Program
+│   │
+│   └── Footer
 │
-├── components/
-│   ├── navbar.html
-│   └── footer.html
+├── PROFIL
+│   ├── Hero Profil
+│   ├── Sejarah Sekolah
+│   ├── Fasilitas Sekolah
+│   ├── Prestasi Akademik
+│   ├── Prestasi Non-Akademik
+│   └── Footer
 │
-├── docs/
-│   └── sitemap.md
+├── PROGRAM
+│   ├── Hero Program
+│   ├── Program Peminatan
+│   │   ├── IPA
+│   │   ├── IPS
+│   │   └── Bahasa
+│   │
+│   ├── Program Unggulan
+│   │   ├── Kelas Olimpiade
+│   │   ├── Bahasa Internasional
+│   │   ├── Digital Literacy
+│   │   └── Leadership Program
+│   │
+│   ├── Ekstrakurikuler
+│   │   ├── Olahraga
+│   │   ├── Seni & Musik
+│   │   ├── Sains & Teknologi
+│   │   └── Sosial & Kepemimpinan
+│   │
+│   └── Footer
 │
-└── README.md
-NAVBAR (Semua Halaman)
-├── Logo SMA Pancasila
-├── Beranda
-├── Hero Section
-│   ├── Background Image Sekolah
-│   ├── Judul Utama
-│   └── Tagline Sekolah
+├── PENDAFTARAN
+│   ├── Hero Pendaftaran
+│   ├── Informasi Pendaftaran
+│   ├── Syarat & Biaya
+│   ├── Gelombang Pendaftaran
+│   ├── Formulir Pendaftaran Online
+│   ├── Bantuan Pendaftaran
+│   └── Footer
 │
-├── Profil Singkat
-│   ├── Visi
-│   ├── Misi
-│   └── Nilai Sekolah
-│
-├── Program Peminatan (Preview)
-│   ├── IPA
-│   ├── IPS
-│   └── Bahasa
-│
-├── Program Unggulan (Preview)
-│   ├── Kelas Olimpiade
-│   ├── Bahasa Internasional
-│   ├── Digital Literacy
-│   └── Leadership Program
-│
-└── Footer
-
-├── Profil
-├── Hero Profil
-│   ├── Judul Profil
-│   └── Deskripsi Sekolah
-│
-├── Sejarah Sekolah
-│   ├── Tahun Pendirian
-│   └── Perkembangan
-│
-├── Fasilitas
-│   ├── Lab IPA
-│   ├── Lab Komputer
-│   ├── Perpustakaan
-│   ├── Lapangan Olahraga
-│   ├── Kantin Sehat
-│   └── Area WiFi
-│
-├── Prestasi
-│   ├── Akademik
-│   └── Non-Akademik
-│
-└── Footer
-
-├── Program
-├── Hero Program
-│   ├── Judul
-│   └── Deskripsi
-│
-├── Program Peminatan
-│   ├── IPA
-│   ├── IPS
-│   └── Bahasa
-│
-├── Program Unggulan
-│   ├── Kelas Olimpiade
-│   ├── Bahasa Internasional
-│   ├── Digital Literacy
-│   └── Leadership Program
-│
-├── Ekstrakurikuler
-│   ├── Olahraga
-│   ├── Seni & Musik
-│   ├── Sains & Teknologi
-│   └── Sosial & Kepemimpinan
-│
-└── Footer
-
-├── Pendaftaran
-├── Hero Pendaftaran
-│   ├── Judul
-│   ├── Tahun Ajaran
-│   └── Ilustrasi
-│
-├── Informasi Pendaftaran
-│   ├── Sekretariat
-│   ├── Jam Pelayanan
-│   └── Pendaftaran Online
-│
-├── Syarat & Biaya
-│   ├── Biaya Masuk
-│   └── Dokumen Persyaratan
-│
-├── Gelombang Pendaftaran
-│   ├── Gelombang 1
-│   ├── Gelombang 2
-│   └── Gelombang 3
-│
-├── Formulir Online
-│   ├── Data Pribadi
-│   ├── Pilihan Program
-│   └── Tombol Daftar
-│
-├── Bantuan Pendaftaran
-│   ├── Telepon
-│   ├── WhatsApp
-│   └── Email
-│
-└── Footer
-└── Hubungi Kami
-├── Hero Kontak
-│   ├── Judul
-│   ├── Subjudul
-│   └── Ilustrasi
-│
-├── Informasi Kontak
-│   ├── Alamat Sekolah
-│   ├── Telepon & Fax
-│   ├── Email
-│   └── WhatsApp
-│
-├── Jam Operasional
-│   ├── Sekretariat
-│   ├── KBM
-│   └── Perpustakaan
-│
-├── Media Sosial
-│   ├── Instagram
-│   ├── Facebook
-│   ├── YouTube
-│   ├── X
-│   ├── TikTok
-│   └── LinkedIn
-│
-├── Lokasi
-│   ├── Google Maps
-│   └── Akses Transportasi
-│
-├── Formulir Kontak (WhatsApp)
-│
-├── FAQ
-│
-└── Footer
-
+└── HUBUNGI KAMI
+    ├── Hero Kontak
+    ├── Informasi Kontak
+    ├── Jam Operasional
+    ├── Media Sosial
+    ├── Lokasi Sekolah
+    ├── Formulir Kontak
+    ├── FAQ
+    └── Footer
+```
 
 ### **Struktur Folder**
 

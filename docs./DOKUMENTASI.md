@@ -93,289 +93,129 @@
 ## **4. STRUKTUR HALAMAN**
 
 ### **Hirarki/Sitemap**
-SITEMAP WEBSITE SMA PANCASILA
-│
-├── NAVBAR (Semua Halaman)
-│   ├── Logo SMA Pancasila
-│   ├── Beranda (index.html)
-│   ├── Profil (profil.html)
-│   ├── Program (program.html)
-│   ├── Pendaftaran (pendaftaran.html)
-│   └── Hubungi Kami (kontak.html)
-│
-├── BERANDA (index.html)
-│   ├── Hero Section
-│   │   ├── Background Image Sekolah
-│   │   ├── Judul Utama
-│   │   └── Tagline Sekolah
-│   │
-│   ├── Profil Singkat Sekolah
-│   │   ├── Visi Sekolah
-│   │   ├── Misi Sekolah
-│   │   └── Nilai-Nilai Sekolah
-│   │
-│   ├── Program Peminatan (Preview)
-│   │   ├── IPA
-│   │   ├── IPS
-│   │   └── Bahasa
-│   │
-│   ├── Program Unggulan (Preview)
-│   │   ├── Kelas Olimpiade
-│   │   ├── Bahasa Internasional
-│   │   ├── Digital Literacy
-│   │   └── Leadership Program
-│   │
-│   └── Footer
-│
-├── PROFIL (profil.html)
-│   ├── Hero Profil
-│   │   ├── Judul Profil Sekolah
-│   │   └── Deskripsi Lengkap Sekolah
-│   │
-│   ├── Sejarah Sekolah
-│   │   ├── Tahun Pendirian
-│   │   └── Perkembangan Sekolah
-│   │
-│   ├── Fasilitas Sekolah
-│   │   ├── Laboratorium IPA
-│   │   ├── Laboratorium Komputer
-│   │   ├── Perpustakaan
-│   │   ├── Lapangan Olahraga
-│   │   ├── Kantin Sehat
-│   │   └── Area WiFi Sekolah
-│   │
-│   ├── Prestasi Sekolah
-│   │   ├── Prestasi Akademik
-│   │   └── Prestasi Non-Akademik
-│   │
-│   └── Footer
-│
-├── PROGRAM (program.html)
-│   ├── Hero Program
-│   │   ├── Judul "Program Sekolah"
-│   │   └── Deskripsi Program Unggulan
-│   │
-│   ├── Program Peminatan
-│   │   ├── Program IPA
-│   │   ├── Program IPS
-│   │   └── Program Bahasa
-│   │
-│   ├── Program Unggulan
-│   │   ├── Kelas Olimpiade
-│   │   ├── Program Bahasa Internasional
-│   │   ├── Digital Literacy
-│   │   └── Leadership Program
-│   │
-│   ├── Ekstrakurikuler
-│   │   ├── Olahraga
-│   │   ├── Seni & Musik
-│   │   ├── Sains & Teknologi
-│   │   └── Sosial & Kepemimpinan
-│   │
-│   └── Footer
-│
-├── PENDAFTARAN (pendaftaran.html)
-│   ├── Hero Pendaftaran
-│   │   ├── Judul: "Pendaftaran Siswa Baru"
-│   │   ├── Tahun Ajaran 2025/2026
-│   │   └── Ilustrasi Ikon Kelulusan
-│   │
-│   ├── Informasi Pendaftaran
-│   │   ├── Sekretariat
-│   │   │   ├── Nama Sekolah
-│   │   │   ├── Alamat Lengkap Sekolah
-│   │   │   └── Kode Pos
-│   │   │
-│   │   ├── Jam Pelayanan
-│   │   │   ├── Senin – Jumat (08.00 – 16.00 WIB)
-│   │   │   ├── Sabtu (08.00 – 12.00 WIB)
-│   │   │   └── Minggu & Hari Libur (Tutup)
-│   │   │
-│   │   └── Pendaftaran Online
-│   │       ├── Website Resmi PPDB
-│   │       └── Aplikasi SMA Pancasila (Play Store & App Store)
-│   │
-│   ├── Syarat & Biaya
-│   │   ├── Biaya Masuk
-│   │   │   ├── Biaya Pendaftaran
-│   │   │   ├── SPP Bulanan
-│   │   │   └── Uang Pangkal (dapat dicicil)
-│   │   │
-│   │   └── Persyaratan Dokumen
-│   │       ├── Formulir Pendaftaran
-│   │       ├── Fotokopi Akta Kelahiran
-│   │       ├── Fotokopi Kartu Keluarga
-│   │       ├── Fotokopi Rapor Kelas 7–9
-│   │       ├── Pas Foto (3x4 & 4x6)
-│   │       └── Surat Keterangan Lulus / Aktif
-│   │
-│   ├── Gelombang Pendaftaran 2025/2026
-│   │   ├── Gelombang 1
-│   │   │   ├── Periode: Februari – April 2025
-│   │   │   ├── Kuota: 100 Siswa
-│   │   │   └── Diskon 20%
-│   │   │
-│   │   ├── Gelombang 2
-│   │   │   ├── Periode: Mei – Juli 2025
-│   │   │   ├── Kuota: 150 Siswa
-│   │   │   └── Diskon 10%
-│   │   │
-│   │   └── Gelombang 3
-│   │       ├── Periode: Agustus 2025
-│   │       ├── Kuota: 50 Siswa
-│   │       └── Status: Kuota Terbatas
-│   │
-│   ├── Formulir Pendaftaran Online
-│   │   ├── Nama Lengkap
-│   │   ├── Email
-│   │   ├── Nomor WhatsApp
-│   │   ├── Alamat Lengkap
-│   │   ├── Asal Sekolah
-│   │   ├── Pilihan Program
-│   │   ├── Catatan Tambahan (Opsional)
-│   │   └── Tombol "Daftar Sekarang"
-│   │
-│   ├── Bantuan Pendaftaran
-│   │   ├── Telepon
-│   │   ├── WhatsApp
-│   │   └── Email Resmi PPDB
-│   │
-│   └── Footer Pendaftaran
-│
-├── HUBUNGI KAMI (kontak.html)
-│   ├── Alamat Sekolah
-│   ├── Nomor Telepon
-│   ├── Email Resmi
-│   ├── WhatsApp
-│   ├── Media Sosial
-│   └── Google Maps Lokasi
-│
-└── FOOTER (Semua Halaman)
-    ├── Alamat Sekolah
-    ├── Jam Pelayanan
-    ├── Cara Pendaftaran
-    │   ├── Isi Formulir Online
-    │   ├── Verifikasi Dokumen
-    │   ├── Pembayaran
-    │   ├── Tes Seleksi
-    │   └── Pengumuman Hasil
-    ├── Informasi Kontak
-    ├── Media Sosial
-    └── Copyright © SMA Pancasila
-├── HUBUNGI KAMI (kontak.html)
-│   ├── Header / Hero Section
-│   │   ├── Judul Halaman: "Hubungi Kami"
-│   │   ├── Subjudul: "Kami siap membantu dan menjawab semua pertanyaan Anda"
-│   │   └── Ilustrasi Ikon Customer Service
-│
-│   ├── Informasi Kontak (Card Section)
-│   │   ├── Sekretariat Sekolah
-│   │   │   ├── Nama Sekolah: SMA Pancasila
-│   │   │   ├── Alamat Lengkap
-│   │   │   │   ├── Jl. Pendidikan No. 123
-│   │   │   │   ├── Kelurahan Pancasila
-│   │   │   │   ├── Kecamatan Pancoran
-│   │   │   │   ├── Kota Jakarta Selatan
-│   │   │   │   └── Provinsi DKI Jakarta
-│   │   │   └── Kode Pos: 12780
-│   │   │
-│   │   ├── Telepon & Fax
-│   │   │   ├── Telepon: (021) 123-4567
-│   │   │   └── Fax: (021) 123-4568
-│   │   │
-│   │   ├── Email Resmi
-│   │   │   ├── Umum: info@smapancasila.sch.id
-│   │   │   ├── Pendaftaran: pendaftaran@smapancasila.sch.id
-│   │   │   └── Humas: humas@smapancasila.sch.id
-│   │   │
-│   │   └── WhatsApp
-│   │       ├── Informasi: 0812-3456-7890
-│   │       └── Pendaftaran: 0813-4567-8901
-│
-│   ├── Jam Operasional (Card Section)
-│   │   ├── Sekretariat
-│   │   │   ├── Senin – Jumat: 08.00 – 16.00 WIB
-│   │   │   ├── Sabtu: 08.00 – 12.00 WIB
-│   │   │   └── Minggu & Hari Libur: Tutup
-│   │   │
-│   │   ├── Kegiatan Belajar Mengajar
-│   │   │   ├── Senin – Kamis: 07.00 – 15.30 WIB
-│   │   │   ├── Jumat: 07.00 – 14.00 WIB
-│   │   │   └── Sabtu: Ekstrakurikuler & Kegiatan Khusus
-│   │   │
-│   │   └── Perpustakaan
-│   │       ├── Senin – Jumat: 08.00 – 17.00 WIB
-│   │       └── Sabtu: 08.00 – 13.00 WIB
-│
-│   ├── Media Sosial (Card Section)
-│   │   ├── Instagram
-│   │   ├── Facebook
-│   │   ├── YouTube
-│   │   ├── Twitter (X)
-│   │   ├── TikTok
-│   │   └── LinkedIn
-│
-│   ├── Lokasi Sekolah
-│   │   ├── Peta Lokasi (Google Maps Embed)
-│   │   │   └── Marker Lokasi SMA Pancasila
-│   │   │
-│   │   └── Akses Transportasi
-│   │       ├── Kendaraan Pribadi
-│   │       │   └── Akses via Tol Pancoran → Jl. Pendidikan
-│   │       │
-│   │       ├── Transportasi Umum
-│   │       │   ├── TransJakarta: Koridor 6 (Ragunan – Dukuh Atas)
-│   │       │   ├── Angkot: Rute 02, 05, 07
-│   │       │   └── Bus Kota: P19, P20
-│   │       │
-│   │       └── Area Parkir
-│   │           ├── Parkir Kendaraan Pribadi
-│   │           └── Parkir Bus Sekolah
-│
-│   ├── Formulir Kontak (WhatsApp Form)
-│   │   ├── Nama Lengkap *
-│   │   ├── Email *
-│   │   ├── Subjek Pesan *
-│   │   │   ├── Informasi Umum
-│   │   │   ├── Pendaftaran
-│   │   │   ├── Akademik
-│   │   │   └── Kerja Sama
-│   │   ├── Pesan *
-│   │   ├── Checkbox Newsletter
-│   │   ├── Tombol: "Kirim via WhatsApp"
-│   │   └── Catatan: Redirect ke WhatsApp
-│
-│   ├── FAQ (Pertanyaan yang Sering Diajukan)
-│   │   ├── Kapan pendaftaran siswa baru dibuka?
-│   │   ├── Berapa biaya masuk SMA Pancasila?
-│   │   ├── Apakah tersedia program beasiswa?
-│   │   ├── Bagaimana sistem pembelajaran?
-│   │   └── Apakah tersedia asrama siswa?
-│
-│   └── Footer Halaman Kontak
-└── FOOTER (Global)
-    ├── Alamat Sekolah
-    │   └── Jl. Pendidikan No. 123, Pancoran, Jakarta Selatan
-    │
-    ├── Kontak Darurat
-    │   ├── Telepon Sekolah
-    │   ├── UGD Sekolah
-    │   └── Keamanan
-    │
-    ├── Layanan Cepat
-    │   ├── Pendaftaran Online
-    │   ├── Program Sekolah
-    │   ├── Prestasi Sekolah
-    │   └── Beranda
-    │
-    ├── Media Sosial
-    │   ├── Instagram
-    │   ├── Facebook
-    │   ├── YouTube
-    │   └── TikTok
-    │
-    └── Copyright
-        └── © SMA Pancasila
+# Website SMA Pancasila
+
+Website resmi SMA Pancasila yang berisi informasi profil sekolah, program pendidikan, pendaftaran siswa baru (PPDB), serta halaman kontak untuk memudahkan komunikasi dengan masyarakat.
+
+---
+
+## Struktur Navigasi (Navbar)
+
+NAVBAR
+├── Beranda (index.html)  
+├── Profil (profil.html)  
+├── Program (program.html)  
+├── Pendaftaran (pendaftaran.html)  
+└── Hubungi Kami (kontak.html)  
+
+---
+
+## Sitemap Website
+
+### 1. Beranda (index.html)
+- Hero Section
+- Profil Singkat Sekolah
+  - Visi
+  - Misi
+  - Nilai Sekolah
+- Program Peminatan (Preview)
+  - IPA
+  - IPS
+  - Bahasa
+- Program Unggulan (Preview)
+  - Kelas Olimpiade
+  - Bahasa Internasional
+  - Digital Literacy
+  - Leadership Program
+- Footer
+
+---
+
+### 2. Profil (profil.html)
+- Profil Sekolah
+- Sejarah Sekolah
+- Visi & Misi
+- Fasilitas Sekolah
+  - Laboratorium IPA
+  - Laboratorium Komputer
+  - Perpustakaan
+  - Lapangan Olahraga
+  - Kantin Sehat
+  - Area WiFi
+- Prestasi Sekolah
+  - Akademik
+  - Non-Akademik
+- Footer
+
+---
+
+### 3. Program (program.html)
+- Program Peminatan
+  - IPA
+  - IPS
+  - Bahasa
+- Program Unggulan
+  - Kelas Olimpiade
+  - Bahasa Internasional
+  - Digital Literacy
+  - Leadership Program
+- Ekstrakurikuler
+  - Olahraga
+  - Seni & Musik
+  - Sains & Teknologi
+  - Sosial & Kepemimpinan
+- Footer
+
+---
+
+### 4. Pendaftaran (pendaftaran.html)
+- Informasi Pendaftaran
+  - Sekretariat
+  - Jam Pelayanan
+  - Pendaftaran Online
+- Syarat & Biaya
+  - Biaya Pendaftaran
+  - SPP Bulanan
+  - Uang Pangkal
+- Persyaratan Dokumen
+- Gelombang Pendaftaran
+  - Gelombang 1 (Februari – April)
+  - Gelombang 2 (Mei – Juli)
+  - Gelombang 3 (Agustus)
+- Formulir Pendaftaran Online
+- Bantuan Pendaftaran
+- Footer
+
+---
+
+### 5. Hubungi Kami (kontak.html)
+- Informasi Kontak Sekolah
+  - Alamat Sekolah
+  - Telepon & Fax
+  - Email Resmi
+  - WhatsApp
+- Jam Operasional
+  - Sekretariat
+  - Kegiatan Belajar
+  - Perpustakaan
+- Media Sosial
+  - Instagram
+  - Facebook
+  - YouTube
+  - Twitter (X)
+  - TikTok
+  - LinkedIn
+- Lokasi Sekolah
+  - Google Maps
+  - Akses Transportasi
+- Formulir Pesan (WhatsApp)
+- FAQ (Pertanyaan yang Sering Diajukan)
+- Footer
+
+---
+
+## Struktur Folder Project
+
 
 
 ### **Struktur Folder**

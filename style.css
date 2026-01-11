@@ -116,6 +116,47 @@
     line-height: 1.6;
 }
 
+.carousel-caption {
+    transition: all 0.3s ease;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding: 8px 12px;
+        max-width: 92%;
+        bottom: 14%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+        margin-bottom: 4px;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        padding: 6px 10px;
+        max-width: 94%;
+        bottom: 10%;
+        border-radius: 10px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 0.95rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.75rem;
+    }
+}
+
 /* =======================
    SECTIONS & LAYOUT
 ======================= */

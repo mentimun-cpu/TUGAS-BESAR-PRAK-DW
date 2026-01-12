@@ -44,6 +44,134 @@
 ### **4. Pendaftaran**
 
 ### **5. Kontak**
+Fitur Kontak pada website SMA Pancasila berfungsi sebagai sarana komunikasi antara pihak sekolah dengan masyarakat, calon siswa, orang tua, maupun mitra. Fitur ini dirancang lengkap agar pengguna dapat memperoleh informasi dan menghubungi sekolah dengan mudah, cepat, dan jelas.
+
+1. Hero Section “Hubungi Kami”
+
+Bagian awal halaman kontak menampilkan judul “Hubungi Kami” beserta deskripsi singkat.
+Tujuannya adalah:
+
+Memberi penegasan bahwa halaman ini khusus untuk komunikasi.
+
+Menarik perhatian pengguna dengan ikon headset sebagai simbol layanan bantuan.
+
+2. Informasi Kontak Sekolah
+
+Pada bagian Informasi Kontak, website menampilkan data kontak resmi sekolah dalam bentuk kartu (card), meliputi:
+
+Alamat lengkap sekolah (nama sekolah, jalan, kecamatan, kota, dan kode pos)
+
+Nomor telepon dan fax
+
+Alamat email untuk keperluan umum, pendaftaran, dan humas
+
+Nomor WhatsApp khusus informasi dan pendaftaran
+
+Fitur ini memudahkan pengunjung untuk memilih media komunikasi sesuai kebutuhan mereka.
+
+3. Jam Operasional
+
+Bagian Jam Operasional memberikan informasi waktu layanan sekolah, yang dibagi menjadi:
+
+Jam operasional sekretariat
+
+Jam kegiatan belajar mengajar
+
+Jam layanan perpustakaan
+
+Dengan adanya fitur ini, pengunjung dapat mengetahui kapan waktu yang tepat untuk menghubungi atau datang langsung ke sekolah.
+
+4. Media Sosial
+
+Fitur Media Sosial menyediakan tombol menuju berbagai platform sosial sekolah seperti:
+
+Instagram
+
+Facebook
+
+YouTube
+
+Twitter
+
+TikTok
+
+LinkedIn
+
+Tujuan fitur ini adalah:
+
+Memperluas jangkauan informasi sekolah
+
+Memudahkan masyarakat mengikuti kegiatan dan pengumuman terbaru
+
+Meningkatkan citra dan kehadiran digital sekolah
+
+5. Peta Lokasi dan Akses Transportasi
+
+Bagian Lokasi Sekolah menampilkan:
+
+Peta Google Maps yang terintegrasi langsung, sehingga pengguna dapat melihat lokasi sekolah secara visual.
+
+Informasi akses transportasi, baik kendaraan pribadi maupun transportasi umum.
+
+Informasi area parkir sekolah.
+
+Fitur ini membantu pengunjung menemukan lokasi sekolah dengan lebih mudah dan akurat.
+
+6. Form Kontak WhatsApp
+
+Fitur Form Kontak WhatsApp memungkinkan pengguna mengirim pesan langsung ke sekolah melalui WhatsApp dengan cara yang praktis.
+Form ini terdiri dari:
+
+Nama lengkap
+
+Email
+
+Subjek pesan
+
+Isi pesan
+
+Opsi berlangganan newsletter
+
+Setelah form dikirim, pengguna akan diarahkan ke WhatsApp untuk melanjutkan pengiriman pesan.
+Fitur validasi memastikan data yang diinput lengkap dan benar sebelum dikirim.
+
+7. FAQ (Frequently Asked Questions)
+
+Bagian FAQ berisi pertanyaan yang sering diajukan, seperti:
+
+Jadwal pendaftaran siswa baru
+
+Biaya masuk sekolah
+
+Program beasiswa
+
+Sistem pembelajaran
+
+Fasilitas asrama
+
+Fitur ini membantu pengguna mendapatkan jawaban cepat tanpa harus menghubungi sekolah secara langsung.
+
+8. Footer Kontak
+
+Pada bagian footer, ditampilkan kembali informasi penting seperti:
+
+Alamat sekolah
+
+Kontak darurat (telepon, UGD, keamanan)
+
+Tautan layanan cepat (pendaftaran, program, profil)
+
+Footer berfungsi sebagai ringkasan kontak yang selalu terlihat di bagian bawah halaman. 
+<img width="952" height="798" alt="image" src="https://github.com/user-attachments/assets/057770d6-6580-4a8b-b8eb-6fd258be6519" />
+<img width="880" height="775" alt="image" src="https://github.com/user-attachments/assets/dfe1d9c3-394c-4a8a-ac64-b80ae82a434f" />
+<img width="705" height="784" alt="image" src="https://github.com/user-attachments/assets/42571aa2-6a3f-4c44-91f6-8d723d444691" />
+<img width="974" height="759" alt="image" src="https://github.com/user-attachments/assets/f2273e8d-4998-4490-88a5-e8c59d318ca6" />
+<img width="972" height="687" alt="image" src="https://github.com/user-attachments/assets/119978eb-c41f-401a-a95d-dc18538ee869" />
+<img width="726" height="872" alt="image" src="https://github.com/user-attachments/assets/fc7a6655-1f67-47c1-ba80-694ca3a1d5d1" />
+<img width="1164" height="829" alt="image" src="https://github.com/user-attachments/assets/d67e294a-1f90-4f9b-829e-2071824c2893" />
+<img width="1301" height="413" alt="image" src="https://github.com/user-attachments/assets/f169edb2-3377-4b4f-bb24-0ca8ab9426ab" />
+<img width="774" height="677" alt="image" src="https://github.com/user-attachments/assets/0954f715-2e74-4dc1-b992-73deb20c5518" />
+
 ---
 
 

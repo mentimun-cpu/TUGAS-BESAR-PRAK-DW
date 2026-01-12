@@ -13,7 +13,7 @@
 | 3 | Fais Base Febrian | [4524210033] | Frontend Developer 1 | Struktur folder, framework implementation |
 | 4 | Jevrene Samny Pratama | [4524210046] | Frontend Developer 2 | A11y implementation, HTML semantik |
 | 5 | Bunga Putri Nuriman | [4524210021] | Frontend Developer 3 | Responsivitas, testing cross-device |
-| 6 | Elsa Setia Marcsa | [4524210030] | Tester & Dokumen |Fitur Halaman Program |
+| 6 | Elsa Setia Marcsa | [4524210030] | UI/UX Designer |Fitur  Program |
 
 ---
 ## **2. LATAR BELAKANG**

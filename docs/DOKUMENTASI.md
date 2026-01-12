@@ -248,22 +248,72 @@ SITEMAP WEBSITE SMA PANCASILA
 ### **1. Lighthouse Audit Results**
 
 #### **Performance Score**
+<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/8aaf76e4-5df6-4712-9011-efa3e7cc9cc8" />
 
 #### **Accessibility Score**
+<img width="1919" height="637" alt="image" src="https://github.com/user-attachments/assets/817cf7c3-a91f-4fa4-aad4-630f2d2e6c40" />
 
 #### **Best Practices Score**
+<img width="1919" height="532" alt="image" src="https://github.com/user-attachments/assets/d53a793f-a736-4ab7-8b25-3c7ba784a5ae" />
 
 #### **SEO Score**
+<img width="1919" height="703" alt="image" src="https://github.com/user-attachments/assets/b40ecd6f-9e1d-4154-95aa-138262dd2796" />
+
+Audit Lighthouse dilakukan menggunakan Google Chrome DevTools. Hasil menunjukkan bahwa website telah memenuhi sebagian besar standar aksesibilitas dan praktik terbaik pengembangan web. Skor Accessibility sebesar 82 menandakan bahwa website cukup ramah bagi pengguna, meskipun masih terdapat beberapa aspek minor yang dapat ditingkatkan.
+
 
 ### **2. Color Contrast Check**
+Pengujian kontras warna dilakukan menggunakan WebAIM. Pengujian ini bertujuan memastikan keterbacaan teks pada website SMA Pancasila terhadap latar belakangnya. Pengujian difokuskan pada elemen utama seperti navbar, carousel (hero section), tombol, konten teks, dan footer.
 
+primary color: #5c88e0 digunakan untuk teks besarnya dan background.
+<img width="940" height="487" alt="image" src="https://github.com/user-attachments/assets/4b9efca5-3c43-4f3f-93b5-6ae68d40c627" />
+
+secondary color: #0059B3 digunakan untuk background content.
+<img width="938" height="473" alt="image" src="https://github.com/user-attachments/assets/2214abbc-1719-4522-aeb2-f4b84eccf666" />
+
+color accent: #FFCC00 digunakan untuk beberapa content seperti background button.
+<img width="949" height="478" alt="image" src="https://github.com/user-attachments/assets/fe0839fb-d205-4119-b0b9-78d24d882595" />
+
+teks color: #000000 dan background #FFFFFF
+<img width="962" height="488" alt="image" src="https://github.com/user-attachments/assets/05365b4d-5e65-4fa3-9ced-e8b8ae86e9e9" />
+
+### **3. Colorblind Simulation
+Simulasi buta warna dilakukan untuk memastikan website tetap dapat digunakan oleh pengguna dengan keterbatasan persepsi warna, seperti protanopia, deuteranopia, tritanopia dan achromatopsia. Simulasi dilakukan menggunakan fitur Emulate Vision Deficiencies pada Chrome Dev Tools.
+protanopia (buta warna merah)
+<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/412a727f-a5f7-4514-ba75-907272608e3b" />
+
+Deuteranopia (buta warna hijau)
+<img width="1919" height="846" alt="image" src="https://github.com/user-attachments/assets/b672205f-fef3-47e3-b565-51ab7a2fc362" />
+
+Tritanopia (buta warna biru kuning)
+<img width="1919" height="839" alt="image" src="https://github.com/user-attachments/assets/4678986b-432b-4f7b-bc7c-2065b659284e" />
+
+Achromatopsia (buta warna total)
+<img width="1919" height="841" alt="image" src="https://github.com/user-attachments/assets/a4a9ace5-43c0-4efc-a96b-e200de4c8f2a" />
+
+Kesimpulan:
 #### **Text Contrast Analysis**
+Hasil pengujian menunjukkan bahwa sebagian besar warna memiliki rasio kontras yang baik dan telah memenuhi standar WCAG level AA dan AAA. Teks pada navbar dan footer tetap terbaca dengan jelas, sementara tombol memiliki warna yang kontras sehingga mudah dikenali oleh pengguna.
+Kontras warna pada website sudah mendukung keterbacaan yang baik bagi pengguna, termasuk pengguna dengan gangguan penglihatan ringan.
 
 #### **Colorblind Simulation**
+Hasil simulasi menunjukkan bahwa informasi pada website tidak bergantung pada warna semata. Menu navigasi, tombol, dan konten utama tetap dapat dikenali karena didukung oleh teks, ikon, dan struktur visual yang jelas. Penggunaan ikon Font Awesome juga membantu memperjelas fungsi suatu elemen. 
+Website masih dapat digunakan dengan baik oleh pengguna buta warna karena informasi disampaikan melalui teks dan ikon, bukan hanya perbedaan warna.
 
-### **3. Keyboard Navigation Test**
+### **4. Keyboard Navigation Test**
+Pengujian navigasi menggunakan keyboard dilakukan untuk memastikan website dapat diakses tanpa menggunakan mouse. Pengujian dilakukan dengan menggunakan tombol Tab, Shift + Tab, Enter, Arrow dan semua Key angka dan huruf.
 
-### **4. Screen Reader Compatibility**
+Hasil pengujian menunjukkan bahwa website SMA PANCASILA bisa di page up dan page down menggunakan tombol arrow pada dikeyboard. Serta pada Menu Pendaftaran di bagian Formulir Pendaftaran dapat di akses menggunakanTab, Shift + Tab, Enter, Arrow dan semua Key angka dan huruf bisa mengakses untuk pengisian formulir. 
+
+### **5. Screen Reader Compatibility**
+Pengujian kompatibilitas screen reader dilakukan dengan mengevaluasi struktur HTML dan hasil audit aksesibilitas menggunakan Lighthouse. Website menggunakan struktur HTML semantik seperti <nav>, <main>, <section>, dan <footer>, serta heading yang tersusun secara hierarkis (h1, h2, h3).
+
+Teks pada tombol dan link bersifat deskriptif sehingga dapat dibaca dengan jelas oleh screen reader. Ikon yang digunakan bersifat dekoratif dan tidak mengganggu pembacaan konten utama.
+Sebagai pengembangan lebih lanjut, beberapa ikon dapat ditambahkan atribut aria-label agar informasi yang disampaikan menjadi lebih optimal bagi pengguna screen reader.
+
+Kesimpulan:
+Website SMA Pancasila telah memiliki struktur yang cukup baik untuk mendukung penggunaan screen reader dan dapat diakses oleh pengguna dengan kebutuhan khusus.
+<img width="1101" height="747" alt="image" src="https://github.com/user-attachments/assets/5249e6c5-66c3-4e7a-9d17-dadf3003b74a" />
 
 ---
 

@@ -104,6 +104,104 @@ Letak dalam Kode (program.html):
   <img width="2002" height="1660" alt="Footer Program" src="https://github.com/user-attachments/assets/f70aeab8-7e41-4f5f-8631-a7aff505eb77" />
 
 ### **4. Pendaftaran**
+1. Hero Section Pendaftaran
+
+Bagian awal halaman menampilkan judul “Pendaftaran Siswa Baru” disertai informasi tahun ajaran 2025/2026.
+Tujuannya adalah:
+
+Memberikan penegasan halaman pendaftaran
+
+Menarik perhatian pengunjung dengan ikon user graduate sebagai simbol pendidikan
+
+2. Informasi Pendaftaran
+
+Pada bagian Informasi Pendaftaran, ditampilkan data penting terkait proses pendaftaran, antara lain:
+
+Alamat sekretariat sekolah
+
+Jam pelayanan pendaftaran
+
+Informasi pendaftaran online melalui website dan aplikasi resmi sekolah
+
+Fitur ini membantu calon siswa mengetahui jalur pendaftaran yang tersedia, baik online maupun offline.
+
+3. Syarat dan Biaya Pendaftaran
+
+Bagian Syarat & Biaya memberikan informasi transparan mengenai:
+
+Biaya pendaftaran
+
+SPP bulanan
+
+Uang pangkal (dengan opsi cicilan)
+
+Persyaratan dokumen administrasi
+
+Dengan adanya fitur ini, calon siswa dan orang tua dapat mempersiapkan kebutuhan pendaftaran sejak awal.
+
+4. Gelombang Pendaftaran
+
+Fitur Gelombang Pendaftaran membagi proses penerimaan siswa baru ke dalam tiga tahap, yaitu:
+
+Gelombang 1 (Februari – April) dengan diskon biaya
+
+Gelombang 2 (Mei – Juli) sebagai pendaftaran reguler
+
+Gelombang 3 (Agustus) dengan kuota terbatas
+
+Pembagian ini memberikan fleksibilitas waktu serta mendorong pendaftaran lebih awal melalui insentif diskon.
+
+5. Formulir Pendaftaran Online
+
+Bagian Formulir Pendaftaran Siswa Baru merupakan fitur utama pada halaman ini.
+Formulir ini memungkinkan calon siswa melakukan pendaftaran secara online dengan mengisi data berikut:
+
+Nama lengkap
+
+Email
+
+Nomor WhatsApp
+
+Alamat lengkap
+
+Asal sekolah
+
+Pilihan program (IPA, IPS, atau Bahasa)
+
+Catatan tambahan (opsional)
+
+Form dilengkapi dengan validasi input untuk memastikan data yang dimasukkan lengkap dan sesuai format. Setelah dikirim, pengguna diarahkan ke halaman konfirmasi pendaftaran.
+
+6. Kontak Darurat Pendaftaran
+
+Bagian Kontak Darurat menyediakan jalur komunikasi cepat bagi calon siswa yang membutuhkan bantuan, meliputi:
+
+Telepon
+
+WhatsApp
+
+Email pendaftaran
+
+Fitur ini memastikan calon pendaftar dapat memperoleh bantuan teknis maupun informasi tambahan secara langsung.
+
+7. Footer Informasi Pendaftaran
+
+Pada bagian footer, ditampilkan ringkasan informasi penting seperti:
+
+Alamat sekolah
+
+Jam pelayanan
+
+Tahapan proses pendaftaran
+
+Footer berfungsi sebagai pengingat informasi utama yang mudah diakses di bagian bawah halaman.
+<img width="841" height="795" alt="image" src="https://github.com/user-attachments/assets/cccdf18e-4e6b-4e16-956d-b22d6788fe00" />
+<img width="1002" height="701" alt="image" src="https://github.com/user-attachments/assets/08e3f9b7-af27-4766-8fb6-94974b77ea6b" />
+<img width="685" height="691" alt="image" src="https://github.com/user-attachments/assets/62b9aa90-8bd6-4d99-afc3-03d115aa4c47" />
+<img width="956" height="769" alt="image" src="https://github.com/user-attachments/assets/d608f9ca-4611-4bdc-a097-c463cf87acca" />
+<img width="666" height="514" alt="image" src="https://github.com/user-attachments/assets/8770201e-12ec-4a7a-855b-1c5fb9986501" />
+<img width="654" height="777" alt="image" src="https://github.com/user-attachments/assets/caca14f5-7776-413d-af7c-c3f6cf4b5808" />
+
 
 ### **5. Kontak**
 Fitur Kontak pada website SMA Pancasila berfungsi sebagai sarana komunikasi antara pihak sekolah dengan masyarakat, calon siswa, orang tua, maupun mitra. Fitur ini dirancang lengkap agar pengguna dapat memperoleh informasi dan menghubungi sekolah dengan mudah, cepat, dan jelas.

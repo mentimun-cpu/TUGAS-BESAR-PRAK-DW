@@ -320,8 +320,10 @@ Website SMA Pancasila telah memiliki struktur yang cukup baik untuk mendukung pe
 ## **7. INFORMASI TEKNIS TAMBAHAN**
 
 ### **GitHub Repository**
+https://github.com/mentimun-cpu/TUGAS-BESAR-PRAK-DW.git
 
 ### **Live Website**
+https://mentimun-cpu.github.io/TUGAS-BESAR-PRAK-DW/
 
 ### **Commit History & Collaboration**
 

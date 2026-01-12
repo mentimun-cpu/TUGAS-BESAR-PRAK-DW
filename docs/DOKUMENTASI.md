@@ -306,7 +306,7 @@ Pengujian navigasi menggunakan keyboard dilakukan untuk memastikan website dapat
 Hasil pengujian menunjukkan bahwa website SMA PANCASILA bisa di page up dan page down menggunakan tombol arrow pada dikeyboard. Serta pada Menu Pendaftaran di bagian Formulir Pendaftaran dapat di akses menggunakanTab, Shift + Tab, Enter, Arrow dan semua Key angka dan huruf bisa mengakses untuk pengisian formulir. 
 
 ### **5. Screen Reader Compatibility**
-Pengujian kompatibilitas screen reader dilakukan dengan mengevaluasi struktur HTML dan hasil audit aksesibilitas menggunakan Lighthouse. Website menggunakan struktur HTML semantik seperti <nav>, <main>, <section>, dan <footer>, serta heading yang tersusun secara hierarkis (h1, h2, h3).
+Pengujian kompatibilitas screen reader dilakukan dengan mengevaluasi struktur HTML dan hasil audit aksesibilitas menggunakan Lighthouse. Website menggunakan struktur HTML semantik seperti nav, main, section, dan footer, serta heading yang tersusun secara hierarkis (h1, h2, h3).
 
 Teks pada tombol dan link bersifat deskriptif sehingga dapat dibaca dengan jelas oleh screen reader. Ikon yang digunakan bersifat dekoratif dan tidak mengganggu pembacaan konten utama.
 Sebagai pengembangan lebih lanjut, beberapa ikon dapat ditambahkan atribut aria-label agar informasi yang disampaikan menjadi lebih optimal bagi pengguna screen reader.

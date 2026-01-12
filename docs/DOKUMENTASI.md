@@ -12,7 +12,7 @@
 | 2 | Ketut Sumantre | [4524210048] | UI/UX Designer | Wireframe, Fitur Beranda |
 | 3 | Fais Base Febrian | [4524210033] | Frontend Developer 1 | Struktur folder, framework implementation |
 | 4 | Jevrene Samny Pratama | [4524210046] | Frontend Developer 2 | A11y implementation, HTML semantik |
-| 5 | Bunga Putri Nuriman | [4524210021] | Frontend Developer 3 | Responsivitas, testing cross-device |
+| 5 | Bunga Putri Nuriman | [4524210021] | Frontend Developer 3 | Fitur Profil |
 | 6 | Elsa Setia Marcsa | [4524210030] | Tester & Dokumen |Fitur  Program |
 
 ---

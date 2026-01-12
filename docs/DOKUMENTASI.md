@@ -17,6 +17,13 @@
 
 ---
 ## **2. LATAR BELAKANG**
+Perkembangan teknologi informasi dan komunikasi yang semakin pesat telah mendorong perubahan besar dalam berbagai bidang kehidupan, termasuk di sektor pendidikan. Institusi pendidikan dituntut untuk mampu memanfaatkan teknologi digital sebagai sarana penyampaian informasi, promosi, serta pelayanan kepada masyarakat secara efektif dan efisien. Website menjadi salah satu media utama yang berperan penting dalam membangun citra profesional sebuah sekolah serta memudahkan akses informasi bagi calon siswa, orang tua, dan masyarakat umum.
+
+SMA Pancasila sebagai institusi pendidikan menengah memiliki kebutuhan akan media informasi digital yang terstruktur, informatif, dan mudah diakses. Website sekolah tidak hanya berfungsi sebagai sarana publikasi profil sekolah, tetapi juga sebagai pusat informasi terkait program pendidikan, fasilitas, prestasi, serta proses pendaftaran siswa baru. Oleh karena itu, perancangan website sekolah harus memperhatikan aspek desain antarmuka (UI), pengalaman pengguna (UX), responsivitas, serta aksesibilitas agar dapat digunakan oleh berbagai kalangan pengguna dengan beragam perangkat dan kebutuhan.
+
+Dalam rangka memenuhi kebutuhan tersebut, proyek ini dikembangkan sebagai bagian dari Tugas Besar Mata Kuliah Praktikum Desain Web di Universitas Pancasila. Website SMA Pancasila dirancang menggunakan framework Bootstrap 5.3.3 sebagai fondasi utama pengembangan antarmuka, dengan dukungan teknologi pendukung seperti Font Awesome, Animate.css, Vanilla JavaScript, dan Google Maps Embed API. Pemilihan teknologi ini bertujuan untuk menghasilkan tampilan website yang modern, konsisten, interaktif, serta mendukung prinsip mobile-first design.
+
+Selain fokus pada tampilan visual dan fungsionalitas, pengembangan website ini juga menekankan aspek aksesibilitas dan praktik terbaik pengembangan web. Hal ini diwujudkan melalui penggunaan struktur HTML semantik, pengujian kontras warna, simulasi buta warna, navigasi menggunakan keyboard, serta evaluasi menggunakan Lighthouse Audit. Dengan demikian, website yang dibangun diharapkan dapat diakses oleh pengguna dengan kebutuhan khusus dan memenuhi standar dasar Web Content Accessibility Guidelines (WCAG).
 
 ### **Framework yang Dipakai**
 **Bootstrap 5.3.3** – Framework front-end utama yang digunakan untuk membangun seluruh antarmuka website. Bootstrap dipilih karena:

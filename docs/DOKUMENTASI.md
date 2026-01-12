@@ -36,10 +36,72 @@
 ## **3. PENJELASAN FITUR - FITUR APLIKASI **
 
 ### **1. Beranda**
+Fitur ini adalah halaman utama yang memberikan gambaran umum tentang sekolah, program, dan kegiatan kepada pengunjung. Berfungsi sebagai pintu masuk utama untuk mengenalkan sekolah secara visual dan informatif.
+
+Isi Fitur:
+1. Slider Gambar (Carousel) – Menampilkan foto-foto sekolah, kegiatan belajar, ekstrakurikuler, dan prestasi.
+2. Profil Sekolah Singkat – Pengenalan singkat tentang sekolah, sejarah, dan visi misi.
+3. Program Peminatan – Preview tiga jurusan: IPA, IPS, dan Bahasa dengan tautan ke halaman program.
+4. Program Unggulan – Menampilkan program khusus seperti Kelas Olimpiade, Bahasa Internasional, Digital Literacy, dan Leadership.
+5. Footer dengan Kontak & Media Sosial – Informasi kontak, alamat, dan tautan pendaftaran.
+  
+   Letak dalam Kode (index.html):
+- Slider
+  <img width="2296" height="2040" alt="slider index" src="https://github.com/user-attachments/assets/b63ebb3f-e441-467a-b79f-e8a58ff3544b" />
+- Profil Sekolah
+  <img width="2172" height="1394" alt="Proil index" src="https://github.com/user-attachments/assets/94df298d-2c33-4855-8ac6-150fce2cdc78" />
+- Program Peminatan
+  <img width="2156" height="2002" alt="Peminatan index" src="https://github.com/user-attachments/assets/e3d007ab-8f87-4bff-891b-3a08c1ed958e" />
+- Program Unggulan
+  <img width="2604" height="2306" alt="Unggulan index" src="https://github.com/user-attachments/assets/a949e62f-e5a9-487c-b6ce-5ed14800e5c3" />
+- Footer
+  <img width="2002" height="2154" alt="Footer index" src="https://github.com/user-attachments/assets/f271bd91-ef94-4ee9-b0f1-e5094f268c05" />
 
 ### **2. Profil**
+Fitur ini memberikan informasi lengkap dan mendetail tentang sejarah, visi misi, fasilitas, dan prestasi sekolah. Bertujuan untuk memberikan kepercayaan dan wawasan yang mendalam kepada calon siswa dan orang tua.
 
+Isi Fitur:
+1. Sejarah Sekolah – Cerita singkat tentang pendirian dan perkembangan sekolah.
+2. Visi & Misi – Dijelaskan dalam bentuk kartu yang terstruktur.
+3. Fasilitas Sekolah – Daftar fasilitas lengkap dengan ikon dan deskripsi.
+4. Prestasi Sekolah – Dikelompokkan menjadi prestasi akademik dan non-akademik.
+5. Gambar Pendukung – Visualisasi sejarah dan fasilitas.
+
+Letak dalam Kode (profil.html):
+- Hero Header
+  <img width="1972" height="786" alt="hero profil" src="https://github.com/user-attachments/assets/36d58f08-4fbf-469c-a4c8-b41a02a8288a" />
+- Sejarah
+  <img width="1988" height="1166" alt="sejarah profil" src="https://github.com/user-attachments/assets/d8aaa5c7-54f6-4d0e-9c18-d11a905f1d64" />
+- Visi Misi
+  <img width="2064" height="2002" alt="fasilitas profil" src="https://github.com/user-attachments/assets/0e9974ec-3cd4-466b-a57e-2060e2bef18c" />
+- Fasilitas
+  <img width="2080" height="3370" alt="Fasilitas yang bener profil" src="https://github.com/user-attachments/assets/0b3c90c7-fb3b-4f4a-b945-46c777f1cff7" />
+- Prestasi
+  <img width="1972" height="1850" alt="Prestasi profil" src="https://github.com/user-attachments/assets/dcc6ef4c-5061-4e9d-a35c-86d36dc20603" />
+- Footer
+  <img width="2018" height="1774" alt="Footer profil" src="https://github.com/user-attachments/assets/86acd559-184a-41ce-acb5-b0853a8ec339" />
 ### **3. Program**
+
+Fitur ini menjelaskan secara rinci program peminatan (IPA, IPS, Bahasa) dan program unggulan yang ditawarkan sekolah. Dilengkapi dengan informasi mata pelajaran, fasilitas, dan prospek karir.
+
+Isi Fitur:
+
+1. Program Peminatan – IPA, IPS, dan Bahasa dengan detail lengkap.
+2. Program Unggulan – Kelas Olimpiade, Bahasa Internasional, Digital Literacy, dan Leadership.
+3. Ekstrakurikuler – Daftar kegiatan olahraga, seni, sains, dan sosial.
+4. Desain Kartu Interaktif – Setiap program ditampilkan dalam kartu yang informatif dan menarik.
+
+Letak dalam Kode (program.html):
+- Hero Section
+  <img width="2018" height="786" alt="Hero Program" src="https://github.com/user-attachments/assets/7f69e609-8190-4ea1-b9ba-a14992befce0" />
+- Program Peminatan
+  <img width="2110" height="4928" alt="Peminatan Program" src="https://github.com/user-attachments/assets/a8b151e7-5ae9-4fee-a7e9-34e5d66ecfe2" />
+- Program Unggulan
+  <img width="2016" height="4852" alt="Unggulan Program" src="https://github.com/user-attachments/assets/ddc9d9da-9570-49ca-a8f1-bde6a407c74e" />
+- Ekstrakurikuler
+  <img width="2972" height="2192" alt="ekskul Program" src="https://github.com/user-attachments/assets/b8e8bb49-05ce-42d4-a1b4-8ddef52a12c5" />
+- Footer
+  <img width="2002" height="1660" alt="Footer Program" src="https://github.com/user-attachments/assets/f70aeab8-7e41-4f5f-8631-a7aff505eb77" />
 
 ### **4. Pendaftaran**
 

@@ -1,26 +1,22 @@
 # **LAPORAN PROYEK WEBSITE PROFESIONAL**
-**Tugas Besar Desain Web - Universitas Pancasila**
+**Tugas Besar Prak. Desain Web - Universitas Pancasila**
 
 ---
 
-## **1. IDENTITAS PROYEK**
+## **1. IDENTITAS KELOMPOK**
 
-### **Nama Project**
 
-### **Deskripsi Singkat**
-
-### **Daftar Anggota Kelompok**
 | No | Nama Lengkap | NIM | Peran | Kontribusi |
 |----|-------------|-----|-------|------------|
 | 1 | Farhan Ridwan Badawi | [4524210037] | Project Manager | Koordinasi tim, dokumentasi, deployment |
-| 2 | Ketut Sumantre | [4524210048] | UI/UX Designer | Wireframe, palet warna, tipografi |
+| 2 | Ketut Sumantre | [4524210048] | UI/UX Designer | Wireframe, Fitur Beranda |
 | 3 | Fais Base Febrian | [4524210033] | Frontend Developer 1 | Struktur folder, framework implementation |
 | 4 | Jevrene Samny Pratama | [4524210046] | Frontend Developer 2 | A11y implementation, HTML semantik |
 | 5 | Bunga Putri Nuriman | [4524210021] | Frontend Developer 3 | Responsivitas, testing cross-device |
 | 6 | Elsa Setia Marcsa | [4524210030] | Tester & Dokumen | Testing, screenshot, review dokumentasi |
 
 ---
-## **2. TEKNOLOGI**
+## **2. LATAR BELAKANG**
 
 ### **Framework yang Dipakai**
 **Bootstrap 5.3.3** – Framework front-end utama yang digunakan untuk membangun seluruh antarmuka website. Bootstrap dipilih karena:
@@ -37,7 +33,7 @@
 
 ---
 
-## **3. DAFTAR FITUR**
+## **3. PENJELASAN FITUR - FITUR APLIKASI **
 
 ### **1. Navbar Responsif**
 - **Sticky Navigation**: Tetap di atas saat scroll
@@ -90,93 +86,15 @@
 - **Scroll Animations**: Animasi fade-in saat elemen masuk viewport
 ---
 
-## **4. STRUKTUR HALAMAN**
 
-### **Hirarki/Sitemap**
 
-## 4. Struktur Halaman (Sitemap Website)
+## 4. WIREFRAME
+- 
 
-```text
-SITEMAP WEBSITE SMA PANCASILA
-│
-├── HOME (Beranda)
-│   ├── Hero Section
-│   │   ├── Background Image Sekolah
-│   │   ├── Judul Utama
-│   │   └── Tagline Sekolah
-│   │
-│   ├── Profil Singkat Sekolah
-│   │   ├── Visi
-│   │   ├── Misi
-│   │   └── Nilai Sekolah
-│   │
-│   ├── Program Peminatan (Preview)
-│   │   ├── IPA
-│   │   ├── IPS
-│   │   └── Bahasa
-│   │
-│   ├── Program Unggulan (Preview)
-│   │   ├── Kelas Olimpiade
-│   │   ├── Bahasa Internasional
-│   │   ├── Digital Literacy
-│   │   └── Leadership Program
-│   │
-│   └── Footer
-│
-├── PROFIL
-│   ├── Hero Profil
-│   ├── Sejarah Sekolah
-│   ├── Fasilitas Sekolah
-│   ├── Prestasi Akademik
-│   ├── Prestasi Non-Akademik
-│   └── Footer
-│
-├── PROGRAM
-│   ├── Hero Program
-│   ├── Program Peminatan
-│   │   ├── IPA
-│   │   ├── IPS
-│   │   └── Bahasa
-│   │
-│   ├── Program Unggulan
-│   │   ├── Kelas Olimpiade
-│   │   ├── Bahasa Internasional
-│   │   ├── Digital Literacy
-│   │   └── Leadership Program
-│   │
-│   ├── Ekstrakurikuler
-│   │   ├── Olahraga
-│   │   ├── Seni & Musik
-│   │   ├── Sains & Teknologi
-│   │   └── Sosial & Kepemimpinan
-│   │
-│   └── Footer
-│
-├── PENDAFTARAN
-│   ├── Hero Pendaftaran
-│   ├── Informasi Pendaftaran
-│   ├── Syarat & Biaya
-│   ├── Gelombang Pendaftaran
-│   ├── Formulir Pendaftaran Online
-│   ├── Bantuan Pendaftaran
-│   └── Footer
-│
-└── HUBUNGI KAMI
-    ├── Hero Kontak
-    ├── Informasi Kontak
-    ├── Jam Operasional
-    ├── Media Sosial
-    ├── Lokasi Sekolah
-    ├── Formulir Kontak
-    ├── FAQ
-    └── Footer
-```
-
-### **Struktur Folder**
 
 ---
 
-## **5. BUKTI RESPONSIVITAS & TAMPILAN**
+## **5. TANGKAP LAYAR HASIL WEBSITE**
 
 ### **Halaman Utama (Homepage)**
 
@@ -306,7 +224,7 @@ Pengujian navigasi menggunakan keyboard dilakukan untuk memastikan website dapat
 Hasil pengujian menunjukkan bahwa website SMA PANCASILA bisa di page up dan page down menggunakan tombol arrow pada dikeyboard. Serta pada Menu Pendaftaran di bagian Formulir Pendaftaran dapat di akses menggunakanTab, Shift + Tab, Enter, Arrow dan semua Key angka dan huruf bisa mengakses untuk pengisian formulir. 
 
 ### **5. Screen Reader Compatibility**
-Pengujian kompatibilitas screen reader dilakukan dengan mengevaluasi struktur HTML dan hasil audit aksesibilitas menggunakan Lighthouse. Website menggunakan struktur HTML semantik seperti nav, main, section, dan footer, serta heading yang tersusun secara hierarkis (h1, h2, h3).
+Pengujian kompatibilitas screen reader dilakukan dengan mengevaluasi struktur HTML dan hasil audit aksesibilitas menggunakan Lighthouse. Website menggunakan struktur HTML semantik seperti <nav>, <main>, <section>, dan <footer>, serta heading yang tersusun secara hierarkis (h1, h2, h3).
 
 Teks pada tombol dan link bersifat deskriptif sehingga dapat dibaca dengan jelas oleh screen reader. Ikon yang digunakan bersifat dekoratif dan tidak mengganggu pembacaan konten utama.
 Sebagai pengembangan lebih lanjut, beberapa ikon dapat ditambahkan atribut aria-label agar informasi yang disampaikan menjadi lebih optimal bagi pengguna screen reader.
@@ -317,7 +235,86 @@ Website SMA Pancasila telah memiliki struktur yang cukup baik untuk mendukung pe
 
 ---
 
-## **7. INFORMASI TEKNIS TAMBAHAN**
+## **7. Struktur Halaman (Sitemap Website)**
+
+```text
+SITEMAP WEBSITE SMA PANCASILA
+│
+├── HOME (Beranda)
+│   ├── Hero Section
+│   │   ├── Background Image Sekolah
+│   │   ├── Judul Utama
+│   │   └── Tagline Sekolah
+│   │
+│   ├── Profil Singkat Sekolah
+│   │   ├── Visi
+│   │   ├── Misi
+│   │   └── Nilai Sekolah
+│   │
+│   ├── Program Peminatan (Preview)
+│   │   ├── IPA
+│   │   ├── IPS
+│   │   └── Bahasa
+│   │
+│   ├── Program Unggulan (Preview)
+│   │   ├── Kelas Olimpiade
+│   │   ├── Bahasa Internasional
+│   │   ├── Digital Literacy
+│   │   └── Leadership Program
+│   │
+│   └── Footer
+│
+├── PROFIL
+│   ├── Hero Profil
+│   ├── Sejarah Sekolah
+│   ├── Fasilitas Sekolah
+│   ├── Prestasi Akademik
+│   ├── Prestasi Non-Akademik
+│   └── Footer
+│
+├── PROGRAM
+│   ├── Hero Program
+│   ├── Program Peminatan
+│   │   ├── IPA
+│   │   ├── IPS
+│   │   └── Bahasa
+│   │
+│   ├── Program Unggulan
+│   │   ├── Kelas Olimpiade
+│   │   ├── Bahasa Internasional
+│   │   ├── Digital Literacy
+│   │   └── Leadership Program
+│   │
+│   ├── Ekstrakurikuler
+│   │   ├── Olahraga
+│   │   ├── Seni & Musik
+│   │   ├── Sains & Teknologi
+│   │   └── Sosial & Kepemimpinan
+│   │
+│   └── Footer
+│
+├── PENDAFTARAN
+│   ├── Hero Pendaftaran
+│   ├── Informasi Pendaftaran
+│   ├── Syarat & Biaya
+│   ├── Gelombang Pendaftaran
+│   ├── Formulir Pendaftaran Online
+│   ├── Bantuan Pendaftaran
+│   └── Footer
+│
+└── HUBUNGI KAMI
+    ├── Hero Kontak
+    ├── Informasi Kontak
+    ├── Jam Operasional
+    ├── Media Sosial
+    ├── Lokasi Sekolah
+    ├── Formulir Kontak
+    ├── FAQ
+    └── Footer
+```
+
+
+## **8. LINK GITHUB & WEBSITE**
 
 ### **GitHub Repository**
 https://github.com/mentimun-cpu/TUGAS-BESAR-PRAK-DW.git
@@ -325,12 +322,7 @@ https://github.com/mentimun-cpu/TUGAS-BESAR-PRAK-DW.git
 ### **Live Website**
 https://mentimun-cpu.github.io/TUGAS-BESAR-PRAK-DW/
 
-### **Commit History & Collaboration**
-
-### **Browser Compatibility**
 
 ---
-
-**Dokumen ini dibuat dengan ❤️ oleh Kelompok [NOMOR KELOMPOK]**
-**Mata Kuliah Desain Web - Universitas Pancasila**
+**Mata Kuliah Prak. Desain Web - Universitas Pancasila**
 **Semester Ganjil 2025/2026**
